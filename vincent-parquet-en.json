@@ -1,0 +1,68 @@
+{"name": "VINCENT PARQUET ",
+"children": [
+    {"name": " Architecture",
+    "children": [
+        {"name": "Cultural Center", "value": 1600, "url": "architecture-se8-en.htm",  "image": "img/s0_architecture_en_1.png" },
+        {"name": "Bridge", "value": 1450, "url": "architecture-se7-en.htm", "image": "img/s0_architecture_en_2.png"},
+        {"name": "Residential", "value": 1350, "url": "architecture-se6-en.htm", "image": "img/s0_architecture_en_3.png"},
+        {"name": "Renovation", "value": 1150, "url": "architecture-se5-en.htm", "image": "img/s0_architecture_en_4.png"},
+        {"name": "Maps", "value": 280, "url": "architecture-map.html"}
+        ],
+    "image": "img/s0_page_architecture_en.png"
+    },
+    
+    {"name": " Engineering",
+    "children": [
+        {"name": "Programmatic mapping software for architecture <br /><br /> <p id='small'># Work in progress</p>", "value": 1400, "url": "#", "image": "img/s0_engineering_1.png"},
+        {"name": "Building's parameter recognition tool", "value": 1100, "url": "#", "image": "img/s0_engineering_2.png"},
+        {"name": "Humanitarian rendering of the OpenStreetMap geographic data <br /><br /> <p id='small'># Work in progress</p>", "value": 900, "url": "#", "image": "img/s0_engineering_3.png"},
+        {"name": "Hydrological study of a flood", "value": 600, "url": "#", "image": "img/s0_engineering_4.png"}
+        ],
+    "image": "img/s0_page_engineering_en.png"
+    },
+    
+    {"name": " Writings",
+    "children": [
+        {"name": "Master's Thesis in Architecture", "value": 1900, "image": "img/s0_page_18.jpg", "url": "#", "textual": "HOW DOES FLOOR RISK INFLUENCE URBAN PLANNING ?<br /> <br /> CASE STUDY:<br />  <br />POST TRAUMATIC MANAGEMENT OF THE FRENCH STORM XYNTHIA - 2010 <p id='small'>© Philippe Cherel/Ouest France/PHOTOPQR/MAXPPP<p>"}
+        ],
+    "image": "img/s0_page_writings_en.png"
+    },
+    
+    {"name": " Software and programming skills",
+    "children": [
+        {"name": " Architecture and Urbanism software",
+        "children": [
+            {"name": "Archicad", "value": 90, "url": "#", "textual": "* * * *"},
+            {"name": "Autocad", "value": 105, "url": "#", "textual": "* * * * *"},
+            {"name": "Sketshup pro", "value": 90, "url": "#", "textual": "* * * * *"},
+            {"name": "MaxwellRender", "value": 60, "url": "#", "textual": "* * *"},
+            {"name": "Grasshopper", "value": 60, "url": "#", "textual": "* * *"}, 
+            {"name": "Photoshop", "value": 100, "url": "#", "textual": "* * * * *"},
+            {"name": "Illustrator", "value": 80, "url": "#", "textual": "* * *"},
+            {"name": "Indesing", "value": 35, "url": "#", "textual": "*"},
+            {"name": "QGis", "value": 65, "url": "#", "textual": "* * *"},
+            {"name": "Rhino", "value": 105, "url": "#", "textual": "* * * * *"}
+            ]
+        },
+        {"name": " Programming Languages",
+        "children": [
+            {"name": "Python", "value": 115, "textual": "* * * *", "url": "#"},
+            {"name": "Java", "value": 130, "textual": "* * * * *"},
+            {"name": "HTML", "value": 87, "textual": "* * * *", "url": "#"},
+            {"name": "CSS", "value": 83, "textual": "* * * *", "url": "#"},
+            {"name": "SQL", "value": 110, "textual": "* * * *", "url": "#"},
+            {"name": "Javascript", "value": 40, "textual": "* *", "url": "#"},
+            {"name": "XML", "value": 45, "textual": "* * *", "url": "#"},
+            {"name": "SLD", "value": 45, "textual": "* * *", "url": "#"}
+            ]
+        }
+        ],
+    "image": "img/s0_page_software_en.png"
+    },
+    
+    {"name": " CV",  "value": 1103, "url": "#", "image": "img/s0_page_cv.png"},
+    {"name": " Contact",  "value": 743, "url": "#", "image": "img/s0_page_contact.png"}
+    
+    ]
+  
+}

@@ -1,0 +1,224 @@
+@font-face {
+}
+
+body,html {
+    height: 98%;
+	width: 99%;
+	font-family: 'FontSuper', Arial, Helvetica, "Open Sans", sans-serif; 
+	background: url(img/s0_bblack.png), url('img/s0_DSC_0435.jpg') no-repeat center fixed;
+	/*background-repeat:no-repeat;
+	background-attachment: fixed; */
+	background-size: 10px 8px, cover; 
+	
+	/*  ET LA VIDEO ??????????? */
+}
+
+h1{ position: fixed;}
+
+h2{ position :fixed;}
+
+h3{ position : fixed;}
+
+a#langue{
+    position : fixed;
+    top : 30px;
+    right: 30px;
+    font-size: 13px;
+    font-weight: normal; 
+    color: white;
+    opacity: 0.7;
+    text-decoration:none;}
+
+a#langue:hover{
+    font-weight: bold; 
+    opacity: 1;}
+
+#chart {
+  width:  760px;
+  height: 100%; 
+  margin-left: auto;
+  margin-right: auto;}
+
+.general{
+    position:absolute;
+    /* Centrer verticalement */
+    top: 50%;
+    margin-top: -270px;}
+
+text {
+  pointer-events: none;}
+
+.grandparent text { /* header text */
+    font-weight: normal;
+    font-size: 15px;
+    opacity: 0.70;}
+
+.grandparent rect {
+  fill: #fff;}
+
+text.goingback {
+    visibility: hidden;}
+
+        .grandparent:hover rect{
+          opacity : 0.94;}
+
+        .grandparent:hover text.goingback{
+          visibility : visible;
+          font-size: 15px;}
+
+        .grandparent:hover text.titlewhere{
+          visibility : hidden;}
+
+
+rect { /* header rectange */
+  fill: none;
+  stroke: #fff;}
+
+rect.parent, .grandparent rect {
+  stroke-width: 1px;}
+
+.children rect.parent,
+.grandparent rect {
+  cursor: pointer;}
+
+rect.parent {
+  pointer-events: all; 
+  fill: rgba(250,250,250,0.00);}
+
+/* dans les rectangles */
+.foreignobj {
+   overflow: hidden;}
+
+div.textapparait { /*  */
+    display: inline-block;
+    font-size: 19px;
+    font-weight: normal; 
+    margin: auto;
+    margin-top: 10px;
+    margin-left: -2px;
+    line-height:15px;
+    max-width: 250px;
+    visibility : hidden;
+    color: white;
+    text-align: left;
+    overflow : hidden;
+    opacity: 0;}
+
+
+img.imgapparait {
+    display: inline-block;
+    visibility : hidden;
+    max-width: 650px;
+    max-height: 655px;
+    padding: 0px;
+    opacity: 0;}
+
+.textdiv { /* titre des textes in the boxes */
+    text-align: left;
+    font-size: 13px;
+    padding-top: 7px;
+    padding-left: 9px;
+    font-weight: normal;
+    font-family: "FontSuper", Arial, Helvetica, "Open Sans", sans-serif; 
+    color: #fff;
+    color: rgba(250,250,250,0.99);}
+
+p#small {
+    font-size: 10px;
+    margin: 1px;}
+
+div.tesst{
+    
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+	text-align:left;
+	overflow:hidden;}
+
+/* au survol des rectangles*/
+
+        .children:hover rect.parent {
+          fill: rgba(250,250,250,0.10);}
+        
+        .children:hover .stars{ 
+        }
+        
+        .children:hover div.textapparait{
+            opacity : 1;
+            visibility: visible;}
+        
+        .children:hover img.imgapparait{
+            visibility: visible;
+            opacity: 1;}
+
+        .children:hover .textdiv {
+            /*color: #5a5a5a;*/
+            font-weight: bold;
+            color: rgb(250,250,250);
+            color: rgba(250,250,250,1);}
+
+rect.child {
+    visibility : hidden;}
+
+/*  infos de bas de page */
+    div#info {
+        position: fixed;
+        bottom: 0px;
+        width: 700px;
+        left: 50%;
+        margin-left: -350px;
+        color: white;
+        font-size: 15px;}
+
+    p#info {
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 3px;}
+
+    p#soustitre {
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 15px;}
+    
+    a#plusgros{
+        position: relative;
+        font-size: 28px;
+        top: 4px;}
+
+/*  bordure blanche */
+/*rect.top{
+    position :fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+}
+
+rect.bottom{
+    position :fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+}
+
+rect.left{
+    position :fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    width: 40px;
+    height: 100%;
+}
+
+rect.right{
+    position :fixed;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+    width: 40px;
+    height: 100%;
+}*/
