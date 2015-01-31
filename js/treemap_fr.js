@@ -39,7 +39,7 @@ title.append("rect")
     
 title.append("text")
     .attr("x", 20)
-    .attr("y", 13 - margin.top)
+    .attr("y", 14 - margin.top)
     .attr("class", "ok")
     .text("VINCENT PARQUET")
     .attr("dy", ".75em");
@@ -56,13 +56,13 @@ grandparent.append("rect")
 
 grandparent.append("text")
     .attr("x", 500)
-    .attr("y", 13 - margin.top)
+    .attr("y", 14 - margin.top)
     .attr("class", "titlewhere")
     .attr("dy", ".75em");
 
 grandparent.append("text")
     .attr("x", 620)
-    .attr("y", 15 - margin.top)
+    .attr("y", 14 - margin.top)
     .text("Back")
     .attr("class","goingback")
     .attr("style","fill:white")
@@ -257,7 +257,7 @@ d3.json("vincent-parquet-fr.json", function(root) {
 
   function name(d) {
     return d.parent
-        ? d.name
-        : d.name;
+        ? d.title
+        : d.title;
   }
 });

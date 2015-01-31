@@ -125,6 +125,11 @@ img.imgapparait {
 p#small {
     font-size: 10px;
     margin: 1px;}
+    
+p#small2 {
+    font-size: 15px;
+    margin: 1px;
+    line-height: 20px;}
 
 div.tesst{
     
