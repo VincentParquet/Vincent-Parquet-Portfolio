@@ -1,4 +1,4 @@
-var margin = {top: 37, right: 1, bottom: 1, left: 1},
+var margin = {top: 39, right: 1, bottom: 1, left: 1},
     width = 760,
     height = 470 - margin.top - margin.bottom,
     formatNumber = d3.format(",d"),
@@ -29,35 +29,45 @@ var svg = d3.select("#chart").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
     .style("shape-rendering", "crispEdges");
 
+var title = svg.append("g")
+    .attr("class", "title");
+  
+title.append("rect")
+    .attr("y", -margin.top)
+    .attr("width",610)
+    .attr("height", margin.top);
+    
+title.append("text")
+    .attr("x", 20)
+    .attr("y", 13 - margin.top)
+    .attr("class", "ok")
+    .text("VINCENT PARQUET")
+    .attr("dy", ".75em");
+    
 var grandparent = svg.append("g")
     .attr("class", "grandparent");
 
 grandparent.append("rect")
-    .attr("y", -margin.top)
-    .attr("width", width)
-    .attr("height", margin.top);
+    .attr("y", -margin.top+1)
+    .attr("x",610)
+    .attr("width", 150)
+    .attr("style","stroke:white;stroke-width:1px;fill:black;fill-opacity:0.01")
+    .attr("height", margin.top-1);
 
 grandparent.append("text")
-    .attr("x", 12)
-    .attr("y", 11 - margin.top)
+    .attr("x", 500)
+    .attr("y", 13 - margin.top)
     .attr("class", "titlewhere")
     .attr("dy", ".75em");
 
 grandparent.append("text")
-    .attr("x", 12)
-    .attr("y", 11 - margin.top)
-    .text("VINCENT PARQUET <<< BACK")
+    .attr("x", 620)
+    .attr("y", 15 - margin.top)
+    .text("Back")
     .attr("class","goingback")
+    .attr("style","fill:white")
     .attr("dy", ".75em");
-/*    
-grandparent.append("text")
-    .attr("class", "soustitre")
-    .attr("x", 10)
-    .attr("y", 35 - margin.top)
-    .attr("dy", ".75em")
-    .text("vincentparquet.vp@gmail.com");
-  */  
-/* load in data, display root */
+
 d3.json("vincent-parquet-en.json", function(root) {
 
   initialize(root);
@@ -247,7 +257,7 @@ d3.json("vincent-parquet-en.json", function(root) {
 
   function name(d) {
     return d.parent
-        ? name(d.parent) + "." + d.name
+        ? d.name
         : d.name;
   }
 });

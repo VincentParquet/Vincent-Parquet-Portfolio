@@ -1,6 +1,7 @@
-{"name": "VINCENT PARQUET ",
+{"name": " " ,
 "children": [
-    {"name": " Architecture",
+    {"name": "Architecture",
+    "title": "Architecture",
     "children": [
         {"name": "Centre Culturel", "value": 1600, "url": "architecture-se8-en.htm",  "image": "img/s0_architecture_fr_1.png"},
         {"name": "Pont", "value": 1450, "url": "architecture-se7-en.htm", "image": "img/s0_architecture_fr_2.png"},
@@ -11,7 +12,8 @@
     "image": "img/s0_page_architecture_fr.png"
     },
     
-    {"name": " Ingénierie",
+    {"name": "Ingénierie",
+    "title": "Ingénierie",
     "children": [
         {"name": "Programmatic mapping software for architecture <br /><br /> <p id='small'># Work in progress</p>", "value": 1400, "url": "#", "image": "img/s0_engineering_1.png"},
         {"name": "Building's parameter recognition tool", "value": 1100, "url": "#", "image": "img/s0_engineering_2.png"},
@@ -21,16 +23,19 @@
     "image": "img/s0_page_engineering_fr.png"
     },
     
-    {"name": " Ecrits",
+    {"name": "Ecrits",
+    "title":"Ecrits",
     "children": [
         {"name": "Thèse de Master en Architecture", "value": 1900, "image": "img/s0_page_18.jpg", "url": "#", "textual": "HOW DOES FLOOR RISK INFLUENCE URBAN PLANNING ?<br /> <br /> CASE STUDY:<br />  <br />POST TRAUMATIC MANAGEMENT OF THE FRENCH STORM XYNTHIA - 2010 <p id='small'>© Philippe Cherel/Ouest France/PHOTOPQR/MAXPPP<p>"}
         ],
     "image": "img/s0_page_writings_fr.png"
     },
     
-    {"name": " Compétences informatiques",
+    {"name": "Compétences informatiques",
+    "title": "Compétences",
     "children": [
-        {"name": " Logiciels d'Architecture et d'Urbanisme",
+        {"name": "Logiciels d'Architecture et d'Urbanisme",
+        "title": "Logiciles",
         "children": [
              {"name": "Archicad", "value": 90, "url": "#", "textual": "* * * *"},
             {"name": "Autocad", "value": 105, "url": "#", "textual": "* * * * *"},
@@ -44,7 +49,8 @@
             {"name": "Rhino", "value": 105, "url": "#", "textual": "* * * * *"}
             ]
         },
-        {"name": " Langages de programmation",
+        {"name": "Langages de programmation",
+        "title": "Programmation",
         "children": [
             {"name": "Python", "value": 115, "textual": "* * * *", "url": "#"},
             {"name": "Java", "value": 130, "textual": "* * * * *"},
@@ -60,8 +66,8 @@
     "image": "img/s0_page_software_fr.png"
     },
     
-    {"name": " CV",  "value": 1103, "url": "#", "image": "img/s0_page_cv.png"},
-    {"name": " Contact",  "value": 743, "url": "#", "image": "img/s0_page_contact.png"}
+    {"name": "CV", "title": "CV",  "value": 1103, "url": "#", "image": "img/s0_page_cv.png"},
+    {"name": "Contact",  "title": "Contact", "value": 743, "url": "#", "image": "img/s0_page_contact.png"}
     
     ]
   
