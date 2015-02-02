@@ -21,12 +21,12 @@ h3{ position : fixed;}
 
 a#langue{
     position : fixed;
-    top : 30px;
-    right: 30px;
+    bottom : 22px;
+    left: 30px;
     font-size: 13px;
     font-weight: normal; 
     color: white;
-    opacity: 0.7;
+    opacity: 0.85;
     text-decoration:none;}
 
 a#langue:hover{
@@ -43,7 +43,7 @@ a#langue:hover{
     position:absolute;
     /* Centrer verticalement */
     top: 50%;
-    margin-top: -270px;}
+    margin-top: -267px;}
 
 text {
   pointer-events: none;}
@@ -142,7 +142,7 @@ div.tesst{
 /* au survol des rectangles*/
 
         .children:hover rect.parent {
-          fill: rgba(250,250,250,0.10);}
+          fill: rgba(250,250,250,0.15);}
         
         .children:hover .stars{ 
         }
@@ -158,8 +158,7 @@ div.tesst{
         .children:hover .textdiv {
             /*color: #5a5a5a;*/
             font-weight: normal;
-            color: rgb(250,250,250);
-            color: rgba(250,250,250,1);}
+            color: rgb(243,161,33);}
 
 rect.child {
     visibility : hidden;}
@@ -167,7 +166,7 @@ rect.child {
 /*  infos de bas de page */
     div#info {
         position: fixed;
-        bottom: 0px;
+        bottom: 5px;
         width: 700px;
         left: 50%;
         margin-left: -350px;
@@ -187,17 +186,18 @@ rect.child {
     
     a#plusgros{
         position: relative;
-        font-size: 28px;
-        top: 4px;}
+        font-size: 22px;
+        top: 2px;}
 
 /*  bordure blanche */
-/*rect.top{
+/*
+rect.top{
     position :fixed;
     top: 0px;
     left: 0px;
     background-color: white;
     width: 100%;
-    height: 30px;
+    height: 14px;
 }
 
 rect.bottom{
@@ -206,7 +206,7 @@ rect.bottom{
     left: 0px;
     background-color: white;
     width: 100%;
-    height: 40px;
+    height: 65px;
 }
 
 rect.left{
@@ -214,7 +214,7 @@ rect.left{
     top: 0px;
     left: 0px;
     background-color: white;
-    width: 40px;
+    width: 1.5%;
     height: 100%;
 }
 
@@ -223,7 +223,7 @@ rect.right{
     top: 0px;
     right: 0px;
     background-color: white;
-    width: 30px;
+    width: 1.5%;
     height: 100%;
 }
 */

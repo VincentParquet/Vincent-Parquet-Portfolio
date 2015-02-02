@@ -1,0 +1,125 @@
+@font-face {
+}
+
+body, html { 
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, "Open Sans", sans-serif;}
+
+#filtergrey{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 0;}
+    
+div#rblanc {
+    margin: auto;
+    margin-top: 15px;
+    height: 100%;
+    width: 96%;
+    background-color: white;}
+
+img#principale { 
+    position: relative;
+    text-align: center;
+    max-height: 80%;
+    max-width: 84%;
+    background-color: white;}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;}
+
+#home {
+    position: absolute;
+    display: inline-block;
+    font-size: 13px;
+    bottom: 22px;
+    left: 30px;
+    color: white;
+    text-decoration:none; 
+    font-weight: normal;
+    opacity: 0.7}
+
+#home:hover {
+    opacity: 1;}
+
+.titre {
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    bottom: 0px;
+    height: 20px;
+    width: 91px;
+    text-align: center;
+    color: black;
+    background-color: white;}
+
+p#titre {
+    margin: 0px;
+    margin-top: 4px;
+    padding: 0px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333333;}
+
+
+div#blanc1{
+    visibility : visible;
+    height: calc(100% - 140px);
+    text-align: center;
+    z-index: 999;}
+
+li{
+    position: absolute;
+    bottom: 0px;
+    height: 20px;
+    overflow: hidden;
+    border: 1px white solid;
+    text-align: center;}
+    
+p#type {
+    margin: 0px;
+    visibility: hidden;
+    font-size: 11px;
+    font-weight: normal;
+    color: white;}
+    
+li:hover #type{
+    visibility: visible;}
+
+
+/* La partie texte  */
+#introduction {
+    position: absolute;
+    top: 100%;
+    margin-top: -108px;
+    left: 560px;
+    bottom: 0px;
+    color: white;}
+
+div#int_titre {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(243,161,33); }
+
+div#int_text {
+    margin-top: -1px;
+    width: 87%;
+    max-width: 580px;
+    min-width: 150px;
+    padding-right: 40px;
+    padding-top: 9px; 
+    font-size: 11px;
+    text-align: justify; }
+    
+a#gras {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(243,161,33);
+    }

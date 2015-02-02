@@ -1,11 +1,3 @@
-@font-face {
-}
-
-body, html { 
-    width: 100%;
-    height: 100%;
-    font-family: Arial, Helvetica, "Open Sans", sans-serif;}
-
 body#mapage {
     margin:0;
     padding:0;
@@ -14,232 +6,118 @@ body#mapage {
     -moz-background-size: 10px 64px, cover; /* pour Firefox */
     -o-background-size: 10px 64px, cover; /* pour Opera */
     background-size: 10px 8px, cover; /* version standardisée */ }
-
-#filtergrey{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    z-index: 0;}
-
-img#principale { 
-  max-height: 94%;
-  max-width: 84%;
-  padding: 1.5%;
-  margin-top: 0.9%;
-  padding-left: 7%;
-  padding-right: 7%;
-  background-color: white;}
-
-
-ul {
-    margin: 0px;
-    padding: 0px;
-    display: inline-block;}
-
-#home {
-    position: absolute;
-    display: inline-block;
-    font-size: 11px;
-    bottom: 35px;
-    left: 30px;
-    color: white;
-    text-decoration:none; 
-    font-weight: normal;}
-
-#home:hover {
-    font-weight: bold;}
-
-.titre {
-    position: absolute;
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    bottom: 0px;
-    height: 24px;
-    width: 91px;
-    text-align: center;
-    color: black;
-    background-color: white;}
-
-p#titre {
-    margin: 0px;
-    margin-top: 6px;
-    padding: 0px;
-    font-size: 11px;
-    font-weight: bold;
-    color: #333333;}
-
-
-div#blanc1{
-    visibility : visible;
-    height: calc(100% - 155px);
-    text-align: center;
-    z-index: 999;}
-
-div#ensemble {
-}
-
-
-li{
-    position: absolute;
-    bottom: 0px;
-    height: 24px;
-    overflow: hidden;
-    border: 1px white solid;
-    text-align: center;}
-
-li:hover #type{
-    visibility: visible;}
-
-
-p#type {
-    margin: 0px;
-    margin-top: 1px;
-    visibility: hidden;
-    font-size: 11px;
-    font-weight: normal;
-    color: white;}
-
-
+    
 /*  Tous les li  */
 /* ligne 1 */
 div#titre1{
-    bottom: 105px;
+    bottom: 86px;
     left: 100px;
-    height: 25px;}
+    height: 21px;}
 
 li#general1{
     width: 60px;
-    bottom: 104px;
+    bottom: 85px;
     left: 191px;}
 
 li#general2{
     width: 75px;
-    bottom: 104px;
+    bottom: 85px;
     left: 252px;}
 
 li#general3{
     width: 65px;
-    bottom: 104px;
+    bottom: 85px;
     left: 328px;}
 
 li#general4{
     width: 50px;
-    bottom: 104px;
+    bottom: 85px;
     left: 374px;}
 
 li#general5{
     width: 60px;
-    bottom: 104px;
+    bottom: 85px;
     left: 425px;}
 
 /* ligne 2 */
 div#titre2{
-    bottom: 80px;
+    bottom: 65px;
     left: 100px;}
 
 li#plan1{
     width: 130px;
-    bottom: 79px;
+    bottom: 64px;
     left: 191px;}
 
 
 /* ligne 3 */
 div#titre3{
-    bottom: 55px;
+    bottom: 44px;
     left: 100px;}
 
 li#coupe1{
     width: 40px;
-    bottom: 54px;
+    bottom: 43px;
     left: 191px;}
 
 li#coupe2{
     width: 60px;
-    bottom: 54px;
+    bottom: 43px;
     left: 232px;}
 
 li#coupe3{
     width: 60px;
-    bottom: 54px;
+    bottom: 43px;
     left: 293px;}
 
 li#coupe4{
     width: 50px;
-    bottom: 54px;
+    bottom: 43px;
     left: 354px;}
 
 li#coupe5{
     width: 40px;
-    bottom: 54px;
+    bottom: 43px;
     left: 405px;}
 
 li#coupe6{
     width: 50px;
-    bottom: 54px;
+    bottom: 43px;
     left: 446px;}
 
 /* ligne 4 */
 div#titre4{
-    bottom: 29px;
+    bottom: 22px;
     left: 100px;
-    height: 25px;}
+    height: 21px;}
 
 li#image1{
     width: 40px;
-    bottom: 29px;
+    bottom: 22px;
     left: 191px;}
 
 li#image2{
     width: 40px;
-    bottom: 29px;
+    bottom: 22px;
     left: 232px;}
 
 li#image3{
     width: 40px;
-    bottom: 29px;
+    bottom: 22px;
     left: 273px;}
 
 li#image4{
     width: 40px;
-    bottom: 29px;
+    bottom: 22px;
     left: 314px;}
 
 li#image5{
     width: 40px;
-    bottom: 29px;
+    bottom: 22px;
     left: 355px;}
 
 li#image6{
     width: 40px;
-    bottom: 29px;
+    bottom: 22px;
     left: 396px;}
 
-/* La partie texte  */
-#introduction {
-    position: absolute;
-    top: 100%;
-    margin-top: -130px;
-    left: 560px;
-    bottom: 0px;
-    color: white;}
-
-p#int_titre {
-    margin: 0px;
-    font-size: 15px;
-    font-weight: bold;
-    color: white; }
-
-div#int_text {
-    margin-top: -1px;
-    width: 87%;
-    max-width: 680px;
-    min-width: 150px;
-    padding-right: 40px;
-    padding-bottom: 20px; }
-
-p#int_text {
-    font-size: 11px;
-    text-align: justify; }
