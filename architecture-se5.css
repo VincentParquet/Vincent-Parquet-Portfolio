@@ -1,15 +1,10 @@
 @font-face {
 }
-
-body, html { 
-    width: 100%;
-    height: 100%;
-    font-family: Arial, Helvetica, "Open Sans", sans-serif;}
     
 body#mapage {
     margin:0;
     padding:0;
-    background: url(img/s0_bback2.png), url(img/se5_page_30.jpg) no-repeat center fixed; 
+    background: url(img/s0_bback3.png), url(img/se5_page_30.jpg) no-repeat center fixed; 
     -webkit-background-size: 10px 64px, cover; /* pour Chrome et Safari */
     -moz-background-size: 10px 64px, cover; /* pour Firefox */
     -o-background-size: 10px 64px, cover; /* pour Opera */

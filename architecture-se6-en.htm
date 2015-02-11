@@ -8,16 +8,17 @@
         
           <script>
  
-        function getImg(i) {
+        function getImg(i,style) {
             document.getElementById('mapage').style.background = "url('"+ i +"') no-repeat center fixed";
-            document.getElementById('mapage').style.backgroundSize = "cover";
+            document.getElementById('mapage').style.backgroundSize = style;
+            document.getElementById('mapage').style.backgroundColor = "rgba(0, 0, 0, 0.8)"; 
             document.getElementById('blanc1').style.visibility  = "hidden";
           }
  
          function getSmallImg(k) {
             document.getElementById('blanc1').style.visibility  = "visible";
             document.getElementById('principale').src = k;
-            document.getElementById('mapage').style.background = "url(img/s0_bback2.png),url(img/se6_img_1.jpg) no-repeat center fixed";
+            document.getElementById('mapage').style.background = "url(img/s0_bback3.png),url(img/se6_img_1.jpg) no-repeat center fixed";
             document.getElementById('mapage').style.backgroundSize = "10px 8px, cover";
           }
     
@@ -33,7 +34,7 @@
           p10 = "img/se6_coupe_4.jpg";
           p11 = "img/se6_coupe_5.jpg";
           p12 = "img/se6_coupe_6.jpg";
-          p13 = "img/se6_img_3.jpg";
+          p13 = "img/se6_img_4.jpg";
           p14 = "img/se6_img_1.jpg";
           p15 = "img/se6_img_2.jpg";
           
@@ -94,15 +95,16 @@
                     <p id="titre">Images</p> 
                 </div>
                 <ul>
-                    <li id="image1" onmouseover="getSmallImg(p13);"><p id="type">Street</p></li>
-                    <li id="image2" onmouseover="getImg(p14);"><p id="type">Street</p></li>
+                    <li id="image1" onmouseover="getImg(p13,'contain');"><p id="type">Street</p></li>
+                    <li id="image2" onmouseover="getImg(p14,'cover');"><p id="type">Street</p></li>
                 </ul>
             </div>
        
             
             <div id="introduction">  
                 <div id="int_titre">HOUSING NANTES</div>
-                <div id="int_text"><a id="gras">TYPE</a>  &nbsp; &nbsp; Housing <br /> <a id="gras">AREA</a>  &nbsp; &nbsp; 1 825 m2 <br /> <br /> erz ert rezgztg tg tg rtgrtg rtg rtg rtg rtg trzgrt g rtg rtb rtbrtb rtb rtb reyb eryhreyhbrye hbrye b reyb rg rt r  r er regfeg sfg g gfteg tg tg treg treg rteg r ztg tg ertg ertg ertgert gert gert gregee rgerg eg terg ter.</div>
+                <div id="int_text"><a id="gras">TYPE</a>  &nbsp; &nbsp; Housing <br /> <a id="gras">AREA</a>  &nbsp; &nbsp; 1 825 m2 <br /> erz ert rezgztg tg tg rtgrtg rtg rtg rtg rtg trzgrt g rtg rtb rtbrtb rtb rtb reyb eryhreyhbrye hbrye b reyb rg rt r  r er regfeg sfg g gfteg tg tg treg treg rteg r ztg tg ertg ertg ertgert gert gert gregee rgerg eg terg ter.</div>
+                <div id="more">more</div>
             </div>
         </div>
   

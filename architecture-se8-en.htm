@@ -7,17 +7,21 @@
         <link rel="stylesheet" href="architecture.css" type="text/css" media="screen"/>
   
           <script>
- 
+          function getText() {
+            document.getElementById('int_text').style.overflow = "visible";
+          }
+          
           function getImg(i) {
             document.getElementById('mapage').style.background = "url('"+ i +"') no-repeat center fixed";
             document.getElementById('mapage').style.backgroundSize = "cover";
+            document.getElementById('mapage').style.backgroundColor = "rgba(0, 0, 0, 0.8)"; 
             document.getElementById('blanc1').style.visibility  = "hidden";
           }
  
          function getSmallImg(k) {
             document.getElementById('blanc1').style.visibility  = "visible";
-            document.getElementById('principale').style.background = k;
-            document.getElementById('mapage').style.background = "url(img/s0_bback2.png),url(img/se8_page_20.jpg) no-repeat center fixed";
+            document.getElementById('principale').src = k;
+            document.getElementById('mapage').style.background = "url(img/s0_bback3.png),url(img/se8_page_20.jpg) no-repeat center fixed";
             document.getElementById('mapage').style.backgroundSize = "10px 8px, cover";
           }
     
@@ -57,11 +61,11 @@
         </div>
         <div id="blanc1">
             <div id="rblanc">
-                <div id="principale">
-                <!--<span id=helper></span>
+                <!--<div id="principale">
+                </div>-->
+                <span id=helper></span>
                 <img id="principale" name="aChanger" src="img/se8_page_1.jpg" alt="Nom du Projet" title="Vincenct Parquet" />
-                -->
-                </div>
+                
             </div>
         </div>
         <div id="ensemble">
@@ -104,18 +108,18 @@
                     <p id="titre">Images</p> 
                 </div>
                 <ul>
-                    <li id="image1" onmouseover="getImg(p22);"><p id="type">Image</p></li>
-                    <li id="image2" onmouseover="getImg(p23);"><p id="type">Image</p></li>
-                    <li id="image3" onmouseover="getImg(p19);"><p id="type">Image</p></li>
-                    <li id="image4" onmouseover="getImg(p20);"><p id="type">Image</p></li>
-                    <li id="image5" onmouseover="getImg(p27);"><p id="type">Image</p></li>
-                    <li id="image6" onmouseover="getImg(p26);"><p id="type">Image</p></li>
+                    <li id="image1" onmouseover="getImg(p20);"><p id="type">Image</p></li>
+                    <li id="image2" onmouseover="getImg(p22);"><p id="type">Image</p></li>
+                    <li id="image3" onmouseover="getImg(p23);"><p id="type">Image</p></li>
+                    <li id="image4" onmouseover="getImg(p17);"><p id="type">Image</p></li>
+                    <li id="image5" onmouseover="getImg(p26);"><p id="type">Image</p></li>
                 </ul>
             </div>
 
             <div id="introduction">
                 <div id="int_titre">CULTURAL CENTER</div>
-                <div id="int_text"><a id="gras">TYPE</a>  &nbsp; &nbsp; Public building <br /> <a id="gras">AREA</a>  &nbsp; &nbsp; 1 825 m2 <br /> <br /> erz ert rezgztg tg tg rtgrtg rtg rtg rtg rtg trzgrt g rtg rtb rtbrtb rtb rtb reyb eryhreyhbrye hbrye b reyb rg rt r  r er regfeg sfg g gfteg tg tg treg treg rteg r ztg tg ertg ertg ertgert gert gert gregee rgerg eg terg ter.</div>
+                <div id="int_text"><a id="gras">TYPE</a>  &nbsp; &nbsp; Public building <br /> <a id="gras">AREA</a>  &nbsp; &nbsp; 1 825 m2 <br />  erz ert rezgztg tg tg rtgrtg rtg rtg rtg rtg trzgrt g rtg rtb rtbrtb rtb rtb reyb eryhreyhbrye hbrye b reyb rg rt r  r er regfeg sfg g gfteg tg tg treg treg rteg r ztg tg ertg ertg ertgert gert gert gregee rgerg eg terg ter.</div>
+                <a id="more" onclick="getText()">more</a>
             </div>
         </div> 
     </body>

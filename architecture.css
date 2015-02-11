@@ -15,10 +15,11 @@ body, html {
     z-index: 0;}
     
 div#rblanc {
+    position: relative;
     margin: auto;
-    margin-top: 15px;
+    top: 15px;
     height: 100%;
-    width: 82%;
+    width: 85%;
     background-color: white;
     text-align: center;}
     
@@ -29,8 +30,8 @@ span#helper {
 }
 
 img#principale { 
-    max-height: 90%;
-    max-width: 84%;
+    max-height: 95%;
+    max-width: 95%;
     vertical-align:middle;}
 
 ul {
@@ -102,36 +103,55 @@ li:hover{
     background-image: url(img/s0_blanc.jpg); 
     background-position: 0px 0;
     background-repeat:no-repeat;
-    transition: background-position 900ms ease-in-out;}
+    transition: background-position 700ms ease-in-out;
+    cursor: crosshair;}
 
 
 /* La partie texte  */
 #introduction {
     position: absolute;
     top: 100%;
-    margin-top: -108px;
+    margin-top: -109px;
     left: 560px;
     bottom: 0px;
     color: white;}
 
 div#int_titre {
     margin: 0px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     color: rgb(243,161,33); }
 
 div#int_text {
-    margin-top: -1px;
-    width: 87%;
+    line-height: 1.4em;
+    margin-top: -5px;
+    height:63px;
+    overflow: hidden;
+    width: 82%;
     max-width: 580px;
     min-width: 150px;
     padding-right: 40px;
     padding-top: 9px; 
-    font-size: 11px;
+    font-size: 12px;
     text-align: justify; }
     
 a#gras {
     font-size: 12px;
     font-weight: bold;
+    margin: 0px;
     color: rgb(243,161,33);
     }
+    
+#more {
+    position: relative;
+    left: 85%;
+    bottom: 17px;
+    font-size: 12px;
+    color: rgb(243,161,33);
+    font-weight: normal;
+    }
+    
+#more:hover {
+    font-weight: bold;
+    }
+    
