@@ -6,7 +6,7 @@ body#mapage {
     -moz-background-size: 10px 64px, cover; /* pour Firefox */
     -o-background-size: 10px 64px, cover; /* pour Opera */
     background-size: 10px 8px, cover; /* version standardisée */ }
-    
+/*    
 div#principale {
     height: 95%;
     width: 95%;
@@ -14,7 +14,7 @@ div#principale {
     background-size: cover;
     text-align: center;
     vertical-align: middle;
-    }
+    }*/
     
 /*  Tous les li  */
 /* ligne 1 */

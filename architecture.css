@@ -85,7 +85,8 @@ li{
     height: 20px;
     overflow: hidden;
     border: 1px white solid;
-    text-align: center;}
+    text-align: center;
+    background-position: -300px 0;}
     
 p#type {
     margin: 0px;
@@ -98,7 +99,10 @@ li:hover #type{
     visibility: visible;}
     
 li:hover{
-    background-color: white;}
+    background-image: url(img/s0_blanc.jpg); 
+    background-position: 0px 0;
+    background-repeat:no-repeat;
+    transition: background-position 900ms ease-in-out;}
 
 
 /* La partie texte  */
