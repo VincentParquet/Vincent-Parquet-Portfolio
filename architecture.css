@@ -48,7 +48,7 @@ ul {
     color: white;
     text-decoration:none; 
     font-weight: normal;
-    opacity: 0.7}
+    opacity: 0.9}
 
 #home:hover {
     opacity: 1;}
@@ -125,9 +125,8 @@ div#int_titre {
 div#int_text {
     line-height: 1.4em;
     margin-top: -5px;
-    height:63px;
     overflow: hidden;
-    width: 82%;
+    width: 80%;
     max-width: 580px;
     min-width: 150px;
     padding-right: 40px;
@@ -136,7 +135,7 @@ div#int_text {
     text-align: justify; }
     
 a#gras {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
     margin: 0px;
     color: rgb(243,161,33);
@@ -144,14 +143,15 @@ a#gras {
     
 #more {
     position: relative;
-    left: 85%;
+    left: 83%;
     bottom: 17px;
-    font-size: 12px;
+    font-size: 13px;
     color: rgb(243,161,33);
-    font-weight: normal;
+    font-weight: bold;
     }
     
 #more:hover {
-    font-weight: bold;
+    text-decoration:underline;
+    cursor: default;
     }
     

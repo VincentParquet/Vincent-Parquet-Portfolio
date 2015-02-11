@@ -7,7 +7,17 @@
         <link rel="stylesheet" href="architecture.css" type="text/css" media="screen"/>
         
           <script>
- 
+          function getText() {
+                if (document.getElementById('int_text').style.height == "63px") {
+                document.getElementById('int_text').style.height = "170%";
+                document.getElementById("more").innerHTML = "hide";
+                window.scrollTo(0,document.body.scrollHeight);
+                } else {
+                document.getElementById('int_text').style.height = "63px";
+                document.getElementById("more").innerHTML = "more..."; 
+                } 
+          }
+          
           function getImg(i) {
             document.getElementById('mapage').style.background = "url('"+ i +"') no-repeat center fixed";
             document.getElementById('mapage').style.backgroundSize = "cover";
@@ -114,8 +124,8 @@
             
             <div id="introduction">
                 <div id="int_titre">HOUSING NANTES</div>
-                <div id="int_text"><a id="gras">TYPE</a>  &nbsp; &nbsp; Housing <br /> <a id="gras">AREA</a>  &nbsp; &nbsp; 1 825 m2 <br /> erz ert rezgztg tg tg rtgrtg rtg rtg rtg rtg trzgrt g rtg rtb rtbrtb rtb rtb reyb eryhreyhbrye hbrye b reyb rg rt r  r er regfeg sfg g gfteg tg tg treg treg rteg r ztg tg ertg ertg ertgert gert gert gregee rgerg eg terg ter.</div>
-                <div id="more">more</div>
+                <div id="int_text" style="height: 63px;"><a id="gras">TYPE</a>  &nbsp; &nbsp; Housing <br /> <a id="gras">AREA</a>  &nbsp; &nbsp; 1 825 m2 <br /> erz ert rezgztg tg tg rtgrtg rtg rtg rtg rtg trzgrt g rtg rtb rtbrtb rtb rtb reyb eryhreyhbrye hbrye b reyb rg rt r  r er regfeg sfg g gfteg tg tg treg treg rteg r ztg tg ertg ertg ertgert gert gert gregee rgerg eg terg ter.</div>
+                <a id="more" onclick="getText()">more</a>
             </div>
         </div>
   
