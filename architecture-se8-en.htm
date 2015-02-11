@@ -16,7 +16,7 @@
  
          function getSmallImg(k) {
             document.getElementById('blanc1').style.visibility  = "visible";
-            document.getElementById('principale').src = k;
+            document.getElementById('principale').style.background = k;
             document.getElementById('mapage').style.background = "url(img/s0_bback2.png),url(img/se8_page_20.jpg) no-repeat center fixed";
             document.getElementById('mapage').style.backgroundSize = "10px 8px, cover";
           }
@@ -57,7 +57,11 @@
         </div>
         <div id="blanc1">
             <div id="rblanc">
+                <div id="principale">
+                <!--<span id=helper></span>
                 <img id="principale" name="aChanger" src="img/se8_page_1.jpg" alt="Nom du Projet" title="Vincenct Parquet" />
+                -->
+                </div>
             </div>
         </div>
         <div id="ensemble">
