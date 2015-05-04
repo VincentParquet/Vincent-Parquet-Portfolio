@@ -19,17 +19,20 @@ h2{ position :fixed;}
 
 h3{ position : fixed;}
 
-a#langue{
+div#langue{
     position : fixed;
-    bottom : 22px;
-    left: 30px;
-    font-size: 13px;
-    font-weight: normal; 
-    color: white;
-    opacity: 0.85;
-    text-decoration:none;}
+    top : 30px;
+    right: 30px;
+    font-size: 14px;
+    color: white;}
 
-a#langue:hover{
+a#lang{
+    text-decoration:none;
+    color: white;
+    opacity: 0.80;
+    }
+    
+a#lang:hover{
     font-weight: bold; 
     opacity: 1;}
 
@@ -137,6 +140,11 @@ div.tesst{
     margin-top: 15px;
 	text-align:left;
 	overflow:hidden;}
+	
+p#information {
+    visibility: hidden;
+    font-size: 12px;
+    margin: 5px;}
 
 /* au survol des rectangles*/
 
@@ -157,6 +165,10 @@ div.tesst{
         .children:hover .textdiv {
             /*color: #5a5a5a;*/
             font-weight: normal;}
+            
+        .children:hover p#information {
+            visibility: visible;
+        }
 
 rect.child {
     visibility : hidden;}

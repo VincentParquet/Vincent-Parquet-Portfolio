@@ -3,10 +3,10 @@
     {"name": "Architecture",
     "title": "Architecture",
     "children": [
-        {"name": "Cultural Center", "value": 1600, "url": "architecture-se8-en.htm",  "image": "img/s0_architecture_en_1.png" },
-        {"name": "Bridge", "value": 1450, "url": "architecture-se7-en.htm", "image": "img/s0_architecture_en_2.png"},
-        {"name": "Residential", "value": 1350, "url": "architecture-se6-en.htm", "image": "img/s0_architecture_en_3.png"},
-        {"name": "Renovation", "value": 1150, "url": "architecture-se5-en.htm", "image": "img/s0_architecture_en_4.png"},
+        {"name": "Cultural Center", "value": 1500, "url": "architecture-se8-en.htm",  "image": "img/s0_architecture_en_1.png" },
+        {"name": "Bridge", "value": 1700, "url": "architecture-se7-en.htm", "image": "img/s0_architecture_en_2.png"},
+        {"name": "Residential", "value": 1400, "url": "architecture-se6-en.htm", "image": "img/s0_architecture_en_3.png"},
+        {"name": "Renovation", "value": 960, "url": "architecture-se5-en.htm", "image": "img/s0_architecture_en_4.png"},
         {"name": "Maps", "value": 280, "url": "architecture-map.html"}
         ],
     "image": "img/s0_page_architecture_en.png"
