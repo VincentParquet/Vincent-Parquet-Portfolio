@@ -43,7 +43,7 @@ ul {
     position: absolute;
     display: inline-block;
     font-size: 13px;
-    bottom: 22px;
+    bottom: 27px;
     left: 30px;
     color: white;
     text-decoration:none; 
@@ -76,7 +76,7 @@ p#titre {
 
 div#blanc1{
     visibility : visible;
-    height: calc(100% - 140px);
+    height: calc(100% - 160px);
     text-align: center;
     z-index: 999;}
 
@@ -93,7 +93,7 @@ p#type {
     margin: 0px;
     visibility: hidden;
     font-size: 11px;
-    font-weight: bold;
+    font-weight: normal;
     color: #333333;}
     
 li:hover #type{
@@ -111,8 +111,8 @@ li:hover{
 #introduction {
     position: absolute;
     top: 100%;
-    margin-top: -109px;
-    left: 560px;
+    margin-top: -115px;
+    left: calc(430px + 15%);
     bottom: 0px;
     color: white;}
 
@@ -126,12 +126,12 @@ div#int_text {
     line-height: 1.4em;
     margin-top: -5px;
     overflow: hidden;
-    width: 80%;
-    max-width: 580px;
+    width: 75%;
+    max-width: 600px;
     min-width: 150px;
-    padding-right: 40px;
+    padding-right: 50px;
     padding-top: 9px; 
-    font-size: 12px;
+    font-size: 11px;
     text-align: justify; }
     
 a#gras {
@@ -143,7 +143,7 @@ a#gras {
     
 #more {
     position: relative;
-    left: 83%;
+    left: 78%;
     bottom: 17px;
     font-size: 13px;
     color: rgb(243,161,33);

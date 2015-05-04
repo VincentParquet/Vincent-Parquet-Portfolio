@@ -21,114 +21,115 @@ div#principale {
 /*  Tous les li  */
 /* ligne 1 */
 div#titre1{
-    bottom: 86px;
+    bottom: 105px;
     left: 100px;
-    height: 21px;}
+    height: 25px;}
 
 li#general1{
     width: 60px;
-    bottom: 85px;
+    bottom: 104px;
     left: 191px;}
 
 li#general2{
     width: 75px;
-    bottom: 85px;
+    bottom: 104px;
     left: 252px;}
 
 li#general3{
     width: 65px;
-    bottom: 85px;
+    bottom: 104px;
     left: 328px;}
 
 li#general4{
     width: 50px;
-    bottom: 85px;
+    bottom: 104px;
     left: 374px;}
 
 li#general5{
     width: 60px;
-    bottom: 85px;
+    bottom: 104px;
     left: 425px;}
 
 /* ligne 2 */
 div#titre2{
-    bottom: 65px;
+    bottom: 80px;
     left: 100px;}
 
 li#plan1{
     width: 130px;
-    bottom: 64px;
+    bottom: 79px;
     left: 191px;}
 
 
 /* ligne 3 */
 div#titre3{
-    bottom: 44px;
+    bottom: 55px;
     left: 100px;}
 
 li#coupe1{
     width: 40px;
-    bottom: 43px;
+    bottom: 54px;
     left: 191px;}
 
 li#coupe2{
     width: 60px;
-    bottom: 43px;
+    bottom: 54px;
     left: 232px;}
 
 li#coupe3{
     width: 60px;
-    bottom: 43px;
+    bottom: 54px;
     left: 293px;}
 
 li#coupe4{
     width: 50px;
-    bottom: 43px;
+    bottom: 54px;
     left: 354px;}
 
 li#coupe5{
     width: 40px;
-    bottom: 43px;
+    bottom: 54px;
     left: 405px;}
 
 li#coupe6{
     width: 50px;
-    bottom: 43px;
+    bottom: 54px;
     left: 446px;}
 
 /* ligne 4 */
 div#titre4{
-    bottom: 22px;
+    bottom: 29px;
     left: 100px;
-    height: 21px;}
+    height: 25px;}
 
 li#image1{
     width: 40px;
-    bottom: 22px;
+    bottom: 29px;
     left: 191px;}
 
 li#image2{
     width: 40px;
-    bottom: 22px;
+    bottom: 29px;
     left: 232px;}
 
 li#image3{
     width: 40px;
-    bottom: 22px;
+    bottom: 29px;
     left: 273px;}
 
 li#image4{
     width: 40px;
-    bottom: 22px;
+    bottom: 29px;
     left: 314px;}
 
 li#image5{
     width: 40px;
-    bottom: 22px;
+    bottom: 29px;
     left: 355px;}
 
 li#image6{
     width: 40px;
-    bottom: 22px;
+    bottom: 29px;
     left: 396px;}
+
 

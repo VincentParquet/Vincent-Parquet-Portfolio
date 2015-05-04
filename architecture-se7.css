@@ -11,62 +11,62 @@ body#mapage {
 /*  Tous les li  */
 /* ligne 1 */
 div#titre1{
-    bottom: 86px;
+    bottom: 92px;
     left: 100px;
     height: 21px;
 }
 
 li#general1{
     width: 70px;
-    bottom: 85px;
+    bottom: 91px;
     left: 191px;
 }
 
 li#general2{
     width: 50px;
-    bottom: 85px;
+    bottom: 91px;
     left: 262px;   
 }
 
 li#general3{
     width: 80px;
-    bottom: 85px;
+    bottom: 91px;
     left: 313px;
 }
 
 li#general4{
     width: 50px;
-    bottom: 85px;
+    bottom: 91px;
     left: 374px;
 }
 
 li#general5{
     width: 60px;
-    bottom: 85px;
+    bottom: 91px;
     left: 425px;  
 }
 
 /* ligne 2 */
 div#titre2{
-    bottom: 65px;
+    bottom: 71px;
     left: 100px;
 }
 
 li#plan1{
     width: 70px;
-    bottom: 64px;
+    bottom: 70px;
     left: 191px;
 }
 
 li#plan2{
     width: 40px;
-    bottom: 64px;
+    bottom: 70px;
     left: 262px;   
 }
 
 li#plan3{
     width: 47px;
-    bottom: 64px;
+    bottom: 70px;
     left: 303px;
 }
 
@@ -78,93 +78,93 @@ li#plan4{
 
 li#plan5{
     width: 40px;
-    bottom: 64px;
+    bottom: 70px;
     left: 392px;
 }
 
 li#plan6{
     width: 40px;
-    bottom: 64px;
+    bottom: 70px;
     left: 433px;
 }
 
 li#plan7{
     width: 40px;
-    bottom: 64px;
+    bottom: 70px;
     left: 474px;
 }
 
 
 /* ligne 3 */
 div#titre3{
-    bottom: 44px;
+    bottom: 50px;
     left: 100px;
 }
 
 li#coupe1{
     width: 40px;
-    bottom: 43px;
+    bottom: 49px;
     left: 191px;
 }
 
 li#coupe2{
     width: 60px;
-    bottom: 43px;
+    bottom: 49px;
     left: 232px;   
 }
 
 li#coupe3{
     width: 60px;
-    bottom: 43px;
+    bottom: 49px;
     left: 293px;
 }
 
 li#coupe4{
     width: 50px;
-    bottom: 43px;
+    bottom: 49px;
     left: 354px;
 }
 
 li#coupe5{
     width: 40px;
-    bottom: 43px;
+    bottom: 49px;
     left: 405px;  
 }
 
 /* ligne 4 */
 div#titre4{
-    bottom: 22px;
+    bottom: 28px;
     left: 100px;
     height: 21px;
 }
 
 li#image1{
     width: 40px;
-    bottom: 22px;
+    bottom: 28px;
     left: 191px;
 }
 
 li#image2{
     width: 50px;
-    bottom: 22px;
+    bottom: 28px;
     left: 232px;   
 }
 
 li#image3{
     width: 60px;
-    bottom: 22px;
+    bottom: 28px;
     left: 283px;
 }
 
 li#image4{
     width: 45px;
-    bottom: 22px;
+    bottom: 28px;
     left: 344px;
 }
 
 li#image5{
     width: 55px;
-    bottom: 22px;
+    bottom: 28px;
     left: 390px;
 }
 
