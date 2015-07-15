@@ -103,7 +103,7 @@ li:hover{
     background-image: url(img/s0_blanc.jpg); 
     background-position: 0px 0;
     background-repeat:no-repeat;
-    transition: background-position 700ms ease-in-out;
+    transition: background-position 1300ms ease-in-out;
     cursor: crosshair;}
 
 

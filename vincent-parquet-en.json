@@ -43,8 +43,8 @@
             {"name": "MaxwellRender", "value": 60, "url": "#", "textual": "* * *"},
             {"name": "Grasshopper", "value": 60, "url": "#", "textual": "* * *"}, 
             {"name": "Photoshop", "value": 100, "url": "#", "textual": "* * * * *"},
-            {"name": "Illustrator", "value": 80, "url": "#", "textual": "* * *"},
-            {"name": "Indesing", "value": 35, "url": "#", "textual": "*"},
+            {"name": "Illustrator", "value": 55, "url": "#", "textual": "* * *"},
+            {"name": "Indesing", "value": 60, "url": "#", "textual": "* * *"},
             {"name": "QGis", "value": 65, "url": "#", "textual": "* * *"},
             {"name": "Rhino", "value": 105, "url": "#", "textual": "* * * * *"}
             ]
@@ -57,7 +57,7 @@
             {"name": "HTML", "value": 87, "textual": "* * * *", "url": "#"},
             {"name": "CSS", "value": 83, "textual": "* * * *", "url": "#"},
             {"name": "SQL", "value": 110, "textual": "* * * *", "url": "#"},
-            {"name": "Javascript", "value": 40, "textual": "* *", "url": "#"},
+            {"name": "Javascript", "value": 40, "textual": "* * *", "url": "#"},
             {"name": "XML", "value": 45, "textual": "* * *", "url": "#"},
             {"name": "SLD", "value": 45, "textual": "* * *", "url": "#"}
             ]
@@ -66,11 +66,11 @@
     "image": "img/s0_page_software_en.png"
     },
     
-    {"name": "CV", "title":"CV",  "value": 1103, "url": "#", "image": "img/s0_page_cv.png"},
+    {"name": "CV", "title":"CV",  "value": 1103, "url": "architecture-cv-en.htm", "image": "img/s0_page_cv.png"},
     {"name": "Contact", 
     "title":"Contact",  
     "children": [
-        {"name": "Contact", "value": 743, "url": "#", "textual": " <br /><br /><br /><br /><br /><br /><br /><br /><p id='small2'>&nbsp;&nbsp;&nbsp;&nbsp; Vincent Parquet<br /> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  vincentparquet.vp@gmail.com <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  +336 50 12 86 08 </p> "}
+        {"value": 743, "url": "#", "textual": " <br /><br /><br /><br /><br /><br /><br /><br /><p id='small2'>&nbsp;&nbsp;&nbsp;&nbsp; Vincent Parquet<br /> <br />&nbsp;&nbsp;&nbsp;&nbsp; vincentparquet.vp@gmail.com </p> "}
         ],
     "image": "img/s0_page_contact.png"}
     ] 
