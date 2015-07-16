@@ -1,46 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Vincent Parquet, architecture 2013</title>
-        <link rel="stylesheet" href="architecture-cv.css" type="text/css" media="screen"/>
-  
-        <script>
-        </script>
-       
-    </head>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Scroll controlled SVG animation</title>
+    <link rel="stylesheet" href="architecture-cv.css">
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/svg-scroll.js"></script>
+  </head>
+
+  <body>
+
+    <svg width="1000px" height="1000px" viewBox="0 0 1000 1600" version="1.1">
+      <g id="Group" stroke="#fff" stroke-width="3" fill="none">
+        <!--CHANGE LINE COLOUR-->
+        <path class="path" d="M5.63276137,182.54231 C6.80194953,193.172437 6.3213287,203.463688 8.78389181,213.305988 C10.8893725,221.721111 17.2164459,227.370951 20.3046414,235.047931 C22.6954227,240.991202 26.777593,245.814282 29.6168696,251.304822 C35.2175982,262.135407 56.0371828,337.714307 56.0371828,337.714307 L132.704815,337.714307 C132.704815,337.714307 160.705733,315.283257 173.036553,307.661609 C182.772217,301.64402 198.272915,283.720624 198.272915,283.720624 C198.272915,283.720624 206.932701,245.86977 214.495314,229.699603 C217.836426,222.555731 220.443269,212.466228 222.464701,200.907166 C222.48683,200.780625 223.103167,200.325007 223.266634,200.163245 C223.681908,199.7523 223.934824,199.476798 224.4066,198.785907 C225.002278,197.913567 225.542985,196.991182 225.943324,196.093396 C226.210144,195.495036 226.511624,194.766691 226.738562,194.309912 C227.147039,193.487729 227.618919,191.858807 227.823369,191.187781 C228.253181,189.777088 228.495384,189.025237 228.650347,188.166614 C228.683934,187.980515 230.030425,182.597722 230.883627,176.052008 C231.263252,173.139547 231.535873,170.000075 231.687372,166.980798 C231.753545,165.661991 231.803387,164.400955 231.888486,163.157758 C232.04826,160.823641 231.98299,158.213817 231.974911,155.880066 C231.957094,150.733641 231.600491,145.751759 231.121789,141.324454 C230.120098,132.060257 228.59446,125.32839 228.59446,125.32839 C228.59446,125.32839 228.650347,120.08005 228.650347,117.658292 C228.650347,108.520701 224.714553,97.0342203 223.830314,89.1118744 C218.874905,44.7138416 207.944892,26.1540212 179.03144,14.5543922 C163.897012,8.4826969 139.335592,0 117.79845,0 C79.2072247,0 35.7979014,21.0164772 12.5429347,54.868483 C3.90403848,67.4440326 4.65665878,81.6018722 1.51397958,97.2334808 C-2.23398125,115.875745 1.51397953,136.521269 1.51397953,157.8 C1.51397953,166.642709 4.70375912,174.095923 5.63276137,182.54231 Z"></path>
+        <path class="path" fill="none" stroke="#EA9249" stroke-width="6" d="M547.334,134.1v223.1c0,0,13.701,55.399-40.1,142.5c-28.799,46.6-34,5.6-57.299,111.3c-18.2,82.6,0,415.4,0,415.4s18.7,87.199"/>
+        <circle class="path" stroke="#F98D3D" stroke-miterlimit="10" cx="188.335" cy="243.5" r="7.5"/>
+        <circle stroke="#fff" stroke-miterlimit="10" cx="180.335" cy="203.5" r="7.5"/>
+      </g>
+    </svg>
     
-    <body id="mapage">
-        <div id="rectangle">fv</div>
-        <div id="rectangle2">fv</div>
-        <div id="langue"><a id="lang" href="architecture-cv-en.htm">FR</a> I <a id="lang" href="architecture-cv-en.htm">EN</a></div>
-        
-
-        <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1000px" height="1600px" viewBox="0 0 1000 1600" enable-background="new 0 0 1000 1600" xml:space="preserve">
-<path fill="none" stroke="#EA9249" stroke-width="6" stroke-miterlimit="10" d="M547.334,134.1v223.1c0,0,13.701,55.399-40.1,142.5
-	c-28.799,46.6-34,5.6-57.299,111.3c-18.2,82.6,0,415.4,0,415.4s18.7,87.199,49.1,141c30.401,53.8,35.5,92.3,38.1,159"/>
-<circle class="overr" fill="#F97112" stroke="#F98D3D" stroke-miterlimit="10" cx="188.335" cy="243.5" r="7.5"/>
-<circle class="overr" fill="#F97512" stroke="#F98D3D" stroke-miterlimit="10" cx="114.335" cy="392.5" r="7.5"/>
-<circle class="over" fill="#F92432" stroke="#F98D3D" stroke-miterlimit="10" cx="85.335" cy="51.5" r="7.5"/>
-</svg>
-
-
-       
-        <!--
-        <a href="#ma_reference" >
-           <img class="logo" src="img/s0_cv_map.svg" alt="MAP" />
-        </a>
-        -->
-        <rect class="top"/> 
-        <rect class="bottom"/> 
-        <rect class="left"/> 
-        <rect class="right"/>
-        <div id="images">  
-            <a id="home" href="vincent-parquet-en.htm"> HOME </a>
-        </div>
-        
-    </body>
+    <rect class="top"> </rect>
+    <rect class="bottom"> </rect>
+    <rect class="left"> </rect> 
+    <rect class="right"> </rect>
+    <div id="langue"><a id="lang" href="vincent-parquet-fr.htm">FR</a> I <a id="lang" href="vincent-parquet-en.htm">EN</a></div>
+    <a id="home" href="vincent-parquet-en.htm"> HOME </a>
+    
+  </body>
 </html>
- 
