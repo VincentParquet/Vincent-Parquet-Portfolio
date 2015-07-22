@@ -1,7 +1,7 @@
 body#mapage {
     margin:0;
     padding:0;
-    background: url(img/s0_bback3.png), url(img/se5_page_30.jpg) no-repeat center fixed; 
+    background: url(img/s0_bback3.png), url(img/se7_img_2.jpg) no-repeat center fixed; 
     -webkit-background-size: 10px 64px, cover; /* pour Chrome et Safari */
     -moz-background-size: 10px 64px, cover; /* pour Firefox */
     -o-background-size: 10px 64px, cover; /* pour Opera */
@@ -102,19 +102,19 @@ div#titre3{
 }
 
 li#coupe1{
-    width: 40px;
+    width: 50px;
     bottom: 49px;
     left: 191px;
 }
 
 li#coupe2{
-    width: 60px;
+    width: 50px;
     bottom: 49px;
-    left: 232px;   
+    left: 242px;   
 }
 
 li#coupe3{
-    width: 60px;
+    width: 50px;
     bottom: 49px;
     left: 293px;
 }
@@ -122,7 +122,7 @@ li#coupe3{
 li#coupe4{
     width: 50px;
     bottom: 49px;
-    left: 354px;
+    left: 344px;
 }
 
 li#coupe5{
@@ -139,21 +139,21 @@ div#titre4{
 }
 
 li#image1{
-    width: 40px;
+    width: 80px;
     bottom: 28px;
     left: 191px;
 }
 
 li#image2{
-    width: 50px;
+    width: 80px;
     bottom: 28px;
-    left: 232px;   
+    left: 272px;   
 }
 
 li#image3{
-    width: 60px;
+    width: 70px;
     bottom: 28px;
-    left: 283px;
+    left: 353px;
 }
 
 li#image4{

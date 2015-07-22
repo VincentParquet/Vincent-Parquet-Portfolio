@@ -63,7 +63,7 @@ grandparent.append("text")
 grandparent.append("text")
     .attr("x", 620)
     .attr("y", 14 - margin.top)
-    .text("Back")
+    .text("Retour")
     .attr("class","goingback")
     .attr("style","fill:white")
     .attr("dy", ".75em");

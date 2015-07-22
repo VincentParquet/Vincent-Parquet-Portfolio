@@ -37,15 +37,15 @@
         {"name": "Architecture and Urbanism software",
         "title": "Software",
         "children": [
-            {"name": "Archicad", "value": 90, "url": "#", "textual": "* * * *"},
+            {"name": "Archicad", "value": 60, "url": "#", "textual": "* * *"},
             {"name": "Autocad", "value": 105, "url": "#", "textual": "* * * * *"},
             {"name": "Sketshup pro", "value": 90, "url": "#", "textual": "* * * * *"},
             {"name": "MaxwellRender", "value": 60, "url": "#", "textual": "* * *"},
             {"name": "Grasshopper", "value": 60, "url": "#", "textual": "* * *"}, 
             {"name": "Photoshop", "value": 100, "url": "#", "textual": "* * * * *"},
-            {"name": "Illustrator", "value": 55, "url": "#", "textual": "* * *"},
+            {"name": "Illustrator", "value": 80, "url": "#", "textual": "* * * *"},
             {"name": "Indesing", "value": 60, "url": "#", "textual": "* * *"},
-            {"name": "QGis", "value": 65, "url": "#", "textual": "* * *"},
+            {"name": "QGis", "value": 85, "url": "#", "textual": "* * * *"},
             {"name": "Rhino", "value": 105, "url": "#", "textual": "* * * * *"}
             ]
         },
@@ -57,9 +57,10 @@
             {"name": "HTML", "value": 87, "textual": "* * * *", "url": "#"},
             {"name": "CSS", "value": 83, "textual": "* * * *", "url": "#"},
             {"name": "SQL", "value": 110, "textual": "* * * *", "url": "#"},
-            {"name": "Javascript", "value": 40, "textual": "* * *", "url": "#"},
+            {"name": "Javascript", "value": 55, "textual": "* * *", "url": "#"},
             {"name": "XML", "value": 45, "textual": "* * *", "url": "#"},
-            {"name": "SLD", "value": 45, "textual": "* * *", "url": "#"}
+            {"name": "SLD", "value": 45, "textual": "* * *", "url": "#"},
+            {"name": "MATLAB", "value": 40, "textual": "* * *", "url": "#"}
             ]
         }
         ],
@@ -70,7 +71,7 @@
     {"name": "Contact", 
     "title":"Contact",  
     "children": [
-        {"value": 743, "url": "#", "textual": " <br /><br /><br /><br /><br /><br /><br /><br /><p id='small2'>&nbsp;&nbsp;&nbsp;&nbsp; Vincent Parquet<br /> <br />&nbsp;&nbsp;&nbsp;&nbsp; vincentparquet.vp@gmail.com </p> "}
+        {"value": 743, "url": "#", "textual": " <br /><br /><br /><br /><br /><br /><br /><br /><p id='small2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vincent Parquet<br /> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vincentparquet.vp@gmail.com </p> "}
         ],
     "image": "img/s0_page_contact.png"}
     ] 

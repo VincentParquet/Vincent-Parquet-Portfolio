@@ -33,12 +33,3 @@ $(document).ready(function() {
 });
 
 
-
-function getSmallImg(k) {
-            document.getElementById('blanc1').style.visibility  = "visible";
-            document.getElementById('principale').src = k;
-            document.getElementById('mapage').style.background = "url(img/s0_bback3.png),url(img/se5_page_30.jpg) no-repeat center fixed";
-            document.getElementById('mapage').style.backgroundSize = "10px 8px, cover";
-          }
-    
-          p1 = "img/se5_page_1.jpg";

@@ -3,10 +3,10 @@
     {"name": "Architecture",
     "title": "Architecture",
     "children": [
-        {"name": "Centre Culturel", "value": 1500, "url": "architecture-se8-en.htm",  "image": "img/s0_architecture_fr_1.png"},
-        {"name": "Pont", "value": 1700, "url": "architecture-se7-en.htm", "image": "img/s0_architecture_fr_2.png"},
-        {"name": "Logements", "value": 1400, "url": "architecture-se6-en.htm", "image": "img/s0_architecture_fr_3.png"},
-        {"name": "Renovation", "value": 960, "url": "architecture-se5-en.htm", "image": "img/s0_architecture_fr_4.png"},
+        {"name": "Centre Culturel", "value": 1450, "url": "architecture-se8-fr.htm",  "image": "img/s0_architecture_fr_1.png"},
+        {"name": "Pont", "value": 1600, "url": "architecture-se7-fr.htm", "image": "img/s0_architecture_fr_2.png"},
+        {"name": "Logements", "value": 1400, "url": "architecture-se6-fr.htm", "image": "img/s0_architecture_fr_3.png"},
+        {"name": "Renovation", "value": 1110, "url": "architecture-se5-fr.htm", "image": "img/s0_architecture_fr_4.png"},
         {"name": "Plan", "value": 280, "url": "architecture-map.html"}
         ],
     "image": "img/s0_page_architecture_fr.png"
@@ -66,11 +66,11 @@
     "image": "img/s0_page_software_fr.png"
     },
     
-    {"name": "CV", "title": "CV",  "value": 1103, "url": "architecture-cv-en.htm", "image": "img/s0_page_cv.png"},
+    {"name": "CV", "title": "CV",  "value": 1103, "url": "architecture-cv-fr.htm", "image": "img/s0_page_cv.png"},
     {"name": "Contact",  
     "title": "Contact", 
     "children": [
-        {"value": 743, "url": "#", "textual": " <br /><br /><br /><br /><br /><br /><br /><br /><p id='small2'>&nbsp;&nbsp;&nbsp;&nbsp; Vincent Parquet<br /> <br />&nbsp;&nbsp;&nbsp;&nbsp; vincentparquet.vp@gmail.com </p> "}
+        {"value": 743, "url": "#", "textual": " <br /><br /><br /><br /><br /><br /><br /><br /><p id='small2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vincent Parquet<br /> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vincentparquet.vp@gmail.com </p> "}
         ],
     "image": "img/s0_page_contact.png"}
     

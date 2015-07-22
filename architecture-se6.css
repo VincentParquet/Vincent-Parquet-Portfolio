@@ -35,17 +35,6 @@ li#general3{
     left: 313px;
 }
 
-li#general4{
-    width: 50px;
-    bottom: 91px;
-    left: 374px;
-}
-
-li#general5{
-    width: 60px;
-    bottom: 91px;
-    left: 425px;  
-}
 
 /* ligne 2 */
 div#titre2{
@@ -97,7 +86,7 @@ li#coupe1{
 }
 
 li#coupe2{
-    width: 60px;
+    width: 40px;
     bottom: 49px;
     left: 272px;   
 }
@@ -112,19 +101,14 @@ div#titre4{
 }
 
 li#image1{
-    width: 60px;
+    width: 120px;
     bottom: 28px;
     left: 191px;
 }
 
 li#image2{
-    width: 130px;
+    width: 120px;
     bottom: 28px;
-    left: 252px;   
+    left: 312px;   
 }
 
-li#image3{
-    width: 60px;
-    bottom: 28px;
-    left: 283px;
-}

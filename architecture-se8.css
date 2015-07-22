@@ -36,19 +36,9 @@ li#general2{
     left: 252px;}
 
 li#general3{
-    width: 65px;
+    width: 105px;
     bottom: 91px;
     left: 328px;}
-
-li#general4{
-    width: 50px;
-    bottom: 91px;
-    left: 374px;}
-
-li#general5{
-    width: 60px;
-    bottom: 91px;
-    left: 425px;}
 
 /* ligne 2 */
 div#titre2{
@@ -56,9 +46,14 @@ div#titre2{
     left: 100px;}
 
 li#plan1{
-    width: 130px;
+    width: 110px;
     bottom: 70px;
     left: 191px;}
+    
+li#plan2{
+    width: 170px;
+    bottom: 70px;
+    left: 302px;}
 
 
 /* ligne 3 */

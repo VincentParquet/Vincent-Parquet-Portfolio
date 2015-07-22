@@ -4,7 +4,7 @@
 body#mapage {
     margin:0;
     padding:0;
-    background: url(img/s0_bback3.png), url(img/se5_page_30.jpg) no-repeat center fixed; 
+    background: url(img/s0_bback3.png), url(img/se5_page_29.jpg) no-repeat center fixed; 
     -webkit-background-size: 10px 64px, cover; /* pour Chrome et Safari */
     -moz-background-size: 10px 64px, cover; /* pour Firefox */
     -o-background-size: 10px 64px, cover; /* pour Opera */
