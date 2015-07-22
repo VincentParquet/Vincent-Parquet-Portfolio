@@ -1,10 +1,11 @@
 body, html {
-  font-family: helvetica neue, sans-serif;
+  font-family: Arial, Helvetica, "Open Sans", sans-serif;
   background: url(img/s0_bblack.png), url('img/s0_DSC_21.jpg') no-repeat center fixed;
   background-size: 10px 8px, cover; 
   color: white;
   margin:0;
   padding:0;
+  width: 100%;
   text-align: center;
 }
 
@@ -19,7 +20,7 @@ h1 {
 }
 
 svg {
-    margin-top: 350px;
+    margin-top: 85px;
 }
 
 .path {
@@ -28,7 +29,7 @@ svg {
 }
 
 .vide {
-    height: 20px;
+    height: 550px;
 }
 
 
@@ -103,3 +104,22 @@ rect.right{
     width: 16px;
     height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

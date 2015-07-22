@@ -1,73 +1,184 @@
 <!DOCTYPE html>
 <html >
-  <head>
-    <meta charset="UTF-8">
-    <title>Scroll controlled SVG animation</title>
-    <link rel="stylesheet" href="architecture-cv.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Scroll controlled SVG animation</title>
+        <link rel="stylesheet" href="architecture-cv.css">
+
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/svg-scroll.js"></script>
+        <script>
+            $(window).scroll(function () {   
+                $(".tex").css("visibility","hidden");
+                var list = document.getElementsByClassName("tex");
+                var listrect = document.getElementsByClassName("rect");
+                for (var i=0; i<list.length; i++) {  
+                    if((($(window).scrollTop())*0.6)>((listrect[i].getBBox().y)-220)){ 
+                        list[i].style.visibility  = "visible";
+                    }
+                }
+            });
+      
+        </script>
     
-    <script src="js/jquery-1.7.1.min.js"></script>
-    <script src="js/svg-scroll.js"></script>
-  </head>
+    </head>
 
   <body>
   
-    <svg class="svgCV" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     width="917.72px" height="1303.68px" viewBox="82.28 412.71 917.72 1103.68" enable-background="new 82.28 412.71 917.72 1103.68"
-     xml:space="preserve">
-        <g id="Layer_4">
+   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1236.678px" height="1814.425px" viewBox="214.5 -51.5 536.678 1014.425"
+	 enable-background="new 214.5 -51.5 536.678 1014.425" xml:space="preserve">
+        <g id="repere">
+    
+                <line fill="none" stroke="#666666" stroke-width="0.6" stroke-miterlimit="10" x1="230.527" y1="874.387" x2="750.877" y2="874.387"/>
+                <line fill="none" stroke="#666666" stroke-width="0.6" stroke-miterlimit="10" x1="230.827" y1="789.334" x2="751.077" y2="789.334"/>
+                <line fill="none" stroke="#666666" stroke-width="0.6" stroke-miterlimit="10" x1="230.827" y1="703.717" x2="751.177" y2="703.717"/>
+                <line fill="none" stroke="#666666" stroke-width="0.6" stroke-miterlimit="10" x1="230.827" y1="617.781" x2="750.977" y2="617.781"/>
+                <line fill="none" stroke="#666666" stroke-width="0.6" stroke-miterlimit="10" x1="230.827" y1="527.987" x2="751.177" y2="527.987"/>
+                <line fill="none" stroke="#666666" stroke-width="0.6" stroke-miterlimit="10" x1="230.827" y1="443.329" x2="750.977" y2="443.329"/>
+                <line fill="none" stroke="#666666" stroke-width="0.6" stroke-miterlimit="10" x1="230.827" y1="368.148" x2="750.777" y2="368.148"/>
+                <line fill="none" stroke="#FCFCFC" stroke-width="1.8" stroke-miterlimit="10" x1="229.027" y1="367.513" x2="250.027" y2="367.513"/>
+                <line fill="none" stroke="#FCFCFC" stroke-width="1.8" stroke-miterlimit="10" x1="229.027" y1="442.694" x2="250.027" y2="442.694"/>
+                <line fill="none" stroke="#FCFCFC" stroke-width="1.8" stroke-miterlimit="10" x1="229.027" y1="527.352" x2="250.027" y2="527.352"/>
+                <line fill="none" stroke="#FCFCFC" stroke-width="1.8" stroke-miterlimit="10" x1="229.027" y1="617.147" x2="250.027" y2="617.147"/>
+                <line fill="none" stroke="#FCFCFC" stroke-width="1.8" stroke-miterlimit="10" x1="229.027" y1="703.081" x2="250.027" y2="703.081"/>
+                <line fill="none" stroke="#FCFCFC" stroke-width="1.8" stroke-miterlimit="10" x1="228.727" y1="873.752" x2="249.727" y2="873.752"/>
+                <line fill="none" stroke="#FCFCFC" stroke-width="1.8" stroke-miterlimit="10" x1="229.027" y1="788.698" x2="250.027" y2="788.698"/>
+            <g>
+                <g>
+                    <line fill="none" stroke="#4F4E4E" stroke-width="1.2" stroke-miterlimit="10" stroke-dasharray="2.3984,2.3984" x1="479.034" y1="76.415" x2="479.034" y2="960.526"/>
+                </g>
+            </g>
+            <g>
+                <g>
+                    <line fill="none" stroke="#999999" stroke-width="1.2" stroke-miterlimit="10" x1="479.034" y1="-32.413" x2="479.034" y2="-18.258"/>
+                    <polygon fill="#999999" points="473.587,-22.671 474.561,-23.58 479.033,-18.769 483.505,-23.58 484.48,-22.671 479.033,-16.813"/>
+                </g>
+            </g>
+        </g>
+        <g id="ligne_x5F_metro">
+            <polyline class="path" fill="none" stroke="#6699FF" stroke-width="3.6" stroke-miterlimit="10" points="563.315,247.987 563.477,781.517 563.483,820.988"/>
+            <path class="path" fill="none" stroke="#99CCFF" stroke-width="4.5" stroke-miterlimit="10" d="M503.878,247.987c0,0,1.371,8.05-5.35,11.78c-5.908,3.278-38.352,20.499-45.301,24.759c-6.95,4.261-6.502,8.661-6.502,13.061c0,4.4-0.011,50.697-0.006,58.002c0.006,7.998,3.157,11.198,11.684,16.599c6.053,3.834,98.868,63.605,98.868,63.605"/>
+            <path class="path" fill="none" stroke="#99FFCC" stroke-width="4.5" stroke-miterlimit="10" d="M441.243,247.987c0,0,0.018,407.9,0.013,414.938c-0.013,18.262-0.013,25.862,10.722,33.862c11.924,8.887,64.847,49.149,64.847,49.149"/>
+            <path class="path" fill="none" stroke="#66CCCC" stroke-width="3.6" stroke-miterlimit="10" d="M383.477,247.987c0,0,0,383.398,0,392.799c0,5.003,2.2,12.604,6.435,15.65c7.164,5.154,145.286,110.889,152.292,116.089c8.711,6.464,15.775,13.264,15.775,26.263c0,13.801,0,55.145,0,55.145"/>
+        </g>
+        <g id="ligne_x5F_fixe">
+            <line fill="none" stroke="#66CCCC" stroke-width="3.6" stroke-miterlimit="10" x1="383.477" y1="251.287" x2="383.477" y2="216.287"/>
+            <line fill="none" stroke="#99FFCC" stroke-width="4.5" stroke-miterlimit="10" x1="441.243" y1="251.587" x2="441.245" y2="216.587"/>
+            <line fill="none" stroke="#99CCFF" stroke-width="4.5" stroke-miterlimit="10" x1="503.878" y1="251.587" x2="503.878" y2="216.587"/>
+            <line fill="none" stroke="#6699FF" stroke-width="3.6" stroke-miterlimit="10" x1="563.267" y1="251.212" x2="563.267" y2="216.212"/>
+            <circle fill="none" stroke="#66CCCC" stroke-width="1.14" stroke-miterlimit="10" cx="383.478" cy="214.788" r="1.879"/>
+            <circle fill="none" stroke="#99FFCC" stroke-width="1.14" stroke-miterlimit="10" cx="441.244" cy="214.788" r="2.349"/>
+            <circle fill="none" stroke="#99CCFF" stroke-width="1.14" stroke-miterlimit="10" cx="503.877" cy="214.788" r="2.349"/>
+            <circle fill="none" stroke="#6699FF" stroke-width="1.14" stroke-miterlimit="10" cx="563.267" cy="214.788" r="1.879"/>
+        </g>
+        <g id="points_x5F_noirs">
+            <path fill="none" stroke="#FFFF66" stroke-width="1.44" stroke-miterlimit="10" d="M552.076,858.902v10.284c0,26.602,0,9.602,0,35.202"/>
+            <path stroke="#FCFCFC" stroke-width="0.6" stroke-miterlimit="10" d="M551.713,858.902c-1.66,0-3.007-1.347-3.007-3.006c0-1.661,1.347-3.006,2.756-3.006h7.332c1.408,0,2.756,1.345,2.756,3.006c0,1.659-1.348,3.006-3.009,3.006H551.713z"/>
+            <path stroke="#FCFCFC" stroke-width="0.6" stroke-miterlimit="10" d="M557.242,826.999c-1.66,0-3.007-1.347-3.007-3.006c0-1.662,1.347-3.006,2.756-3.006h7.332c1.408,0,2.756,1.344,2.756,3.006c0,1.659-1.348,3.006-3.008,3.006H557.242z"/>
+            <circle fill="#6699FF" cx="563.507" cy="823.993" r="1.963"/>
+            <path stroke="#FCFCFC" stroke-width="0.6" stroke-miterlimit="10" d="M516.991,754.218c-1.021,1.309-2.912,1.542-4.219,0.52c-1.31-1.023-1.541-2.912-0.674-4.022l4.746-5.905c0.867-1.109,2.756-1.344,4.066-0.32c1.307,1.021,1.537,2.912,0.516,4.221L516.991,754.218z"/>
+            <circle cx="441.243" cy="624.317" r="1.74"/>
+            <circle cx="462.777" cy="704.988" r="1.74"/>
+            <circle fill="#66CCCC" cx="557.979" cy="855.896" r="1.963"/>
+            <circle fill="#FFFF33" cx="552.485" cy="855.897" r="1.57"/>
+            <circle cx="441.243" cy="544.188" r="1.74"/>
+            <path stroke="#FCFCFC" stroke-width="0.6" stroke-miterlimit="10" d="M556.641,438.799c-1.659,0-3.006-1.347-3.006-3.005c0-1.662,1.347-3.006,2.755-3.006h7.333c1.408,0,2.756,1.345,2.756,3.006c0,1.659-1.348,3.005-3.009,3.005H556.641z"/>
+            <circle fill="#99FFFF" cx="518.787" cy="746.948" r="1.963"/>
+            <circle fill="#6699FF" cx="557.271" cy="435.793" r="1.963"/>
+            <circle cx="446.725" cy="342.782" r="1.74"/>
+            <circle cx="441.245" cy="342.787" r="1.74"/>
+            <line fill="#232221" stroke="#000000" stroke-width="1.8" stroke-miterlimit="10" x1="441.243" y1="342.784" x2="446.725" y2="342.784"/>
+            <circle cx="446.725" cy="297.587" r="1.74"/>
+            <circle cx="383.478" cy="320.387" r="1.337"/>
+            <circle cx="383.478" cy="468.587" r="1.337"/>
+            <circle cx="383.478" cy="576.786" r="1.337"/>
+            <circle cx="391.752" cy="657.773" r="1.336"/>
+            <circle cx="476.145" cy="722.2" r="1.336"/>
+            <circle cx="563.399" cy="664.262" r="1.336"/>
+            <circle cx="563.399" cy="576.137" r="1.336"/>
+            <circle cx="563.315" cy="485.274" r="1.336"/>
+            <circle cx="563.399" cy="357.437" r="1.336"/>
+        </g>
+        <g id="textes">
+            <!--<rect id="rectt" x="447.878" y="539.988" fill="none" width="78.199" height="37.485"/>-->
+            <polygon class="rect" fill="none" points="447.878,539.988 447.878,618.187 556.077,618.187 556.077,539.988 "/>
+            <text class="tex" transform="matrix(1 0 0 1 447.8777 545.1428)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="7.2">HLA</tspan><tspan x="0" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Architectural Assistant</tspan><tspan x="0" y="17.28" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Paris, FR</tspan></text>
+            <polygon class="rect" fill="none" points="526.077,661.116 446.725,662.925 447.878,622.516 540.277,622.516 "/>
+            <text class="tex" transform="matrix(1 0 0 1 447.863 627.6721)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="7.2">GPAA</tspan><tspan x="-0.246" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Site Supervisor Assistant</tspan><tspan x="-0.492" y="17.28" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Nantes, FR</tspan></text>
+            <polygon class="rect" fill="none" points="549.177,472.787 466.677,472.487 447.878,435.63 549.177,435.63 "/>
+            <text class="tex" transform="matrix(1 0 0 1 453.9675 440.7854)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="7.2">White Lioness technologies</tspan><tspan x="58.388" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Developper</tspan><tspan x="45.197" y="17.279" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Amsterdam, NL</tspan><tspan x="65.595" y="25.92" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">4 months</tspan></text>
+            <polygon class="rect" fill="none" points="555.308,317.446 453.227,317.446 453.227,293.12 557.271,293.12 "/>
+            <text class="tex" transform="matrix(1 0 0 1 453.2273 298.2756)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="7.2">White Lioness technologies</tspan><tspan x="0" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Freelance developper</tspan><tspan x="0" y="17.28" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Amsterdam, NL</tspan></text>
+            <!--<rect x="492.25" y="853.495" fill="none" width="57" height="28.149"/>-->
+            <polygon class="rect" fill="none" points="492.25,853.495 492.25,881.644 549.25,881.644 549.25,853.495 "/>
+            <text class="tex" transform="matrix(1 0 0 1 492.2498 858.6506)" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="7.2">Baccalauréat S</text>
+            <polygon class="rect" fill="none" points="527.878,354.989 452.903,360.587 452.903,339.89 512.577,339.89 "/>
+            <text class="tex" transform="matrix(1 0 0 1 452.9031 345.0461)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Freelance activity</tspan><tspan x="0" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Architecture software</tspan></text>
+            <polygon class="rect" fill="none" points="631.279,873.752 570.87,873.752 570.87,852.888 663.27,852.888 "/>
+            <text class="tex" transform="matrix(1 0 0 1 570.8699 858.0432)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="7.2">Starting Architecture </tspan><tspan x="73.61" y="0" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">at</tspan><tspan x="0" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">ENSA Nantes</tspan></text>
+            <polygon class="rect" fill="none" points="656.021,838.825 571.469,843.187 571.469,820.988 663.87,820.988 "/>
+            <text class="tex" transform="matrix(1 0 0 1 571.4695 826.1428)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="7.2">Starting Engineering </tspan><tspan x="72.805" y="0" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">at</tspan><tspan x="0" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Ecole Centrale Nantes</tspan></text>
+            <polygon class="rect" fill="none" points="377.385,590.006 284.985,595.775 284.985,573.648 377.385,573.648 "/>
+            <text class="tex" transform="matrix(1 0 0 1 324.5486 578.803)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Bachelor degree</tspan><tspan x="6.817" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">in Architecture</tspan></text>
+            <polygon class="rect" fill="none" points="375.917,351.388 280.901,340.926 280.901,315.046 375.917,315.046 "/>
+            <text class="tex" transform="matrix(1 0 0 1 295.8904 320.2019)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Working toward a master </tspan><tspan x="9.587" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">degree in Architecture</tspan></text>
+            <polygon class="rect" fill="none" points="688.677,390.587 571.733,377.716 571.733,355.589 664.134,355.589 "/>
+            <text class="tex" transform="matrix(1 0 0 1 571.7332 360.7444)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Working toward a master </tspan><tspan x="0" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">degree in Engineering</tspan></text>
+            <polygon class="rect" fill="none" points="662.933,499.205 570.534,504.974 570.534,482.847 662.933,482.847 "/>
+            <text class="tex" transform="matrix(1 0 0 1 570.5339 488.0022)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Bachelor degree</tspan><tspan x="0" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">in Engineering</tspan></text>
+            <polygon class="rect" fill="none" points="500.61,744.482 440.202,744.482 440.202,723.616 532.601,723.616 "/>
+            <text class="tex" transform="matrix(1 0 0 1 440.2019 727.9124)"><tspan x="0" y="0" fill="#999999" font-family="'Arial-ItalicMT'" font-size="6">1st yr</tspan><tspan x="0" y="7.2" fill="#999999" font-family="'Arial-ItalicMT'" font-size="6">ENSA Nantes</tspan></text>
+            <polygon class="rect" fill="none" points="390.416,677.902 365.577,677.902 365.577,657.036 403.677,657.773 "/>
+            <text class="tex" transform="matrix(1 0 0 1 365.5769 661.3323)" fill="#999999" font-family="'Arial-ItalicMT'" font-size="6">2nd yr</text>
+            <polygon class="rect" fill="none" points="391.752,486.712 362.277,486.712 362.277,465.847 397.677,465.847 "/>
+            <text class="tex" transform="matrix(1 0 0 1 362.2771 470.1428)" fill="#999999" font-family="'Arial-ItalicMT'" font-size="6">4th yr</text>
+            <polygon class="rect" fill="none" points="629.087,681.981 568.677,681.981 568.677,661.116 661.077,661.116 "/>
+            <text class="tex" transform="matrix(1 0 0 1 568.6775 665.4124)"><tspan x="0" y="0" fill="#999999" font-family="'Arial-ItalicMT'" font-size="6">1st yr</tspan><tspan x="0" y="7.2" fill="#999999" font-family="'Arial-ItalicMT'" font-size="6">Ecole Centrale Nantes</tspan></text>
+            <polygon class="rect" fill="none" points="587.277,455.561 570.477,455.561 570.477,434.696 601.677,434.696 "/>
+            <text class="tex" transform="matrix(1 0 0 1 570.4773 438.9924)" fill="#999999" font-family="'Arial-ItalicMT'" font-size="6">4th yr</text>
+            <polygon class="rect" fill="none" points="581.277,593.943 569.277,593.943 569.277,573.078 591.477,573.078 "/>
+            <text class="tex" transform="matrix(1 0 0 1 569.2771 577.3743)" fill="#999999" font-family="'Arial-ItalicMT'" font-size="6">2nd yr</text>
+            <polygon class="rect" fill="none" points="583.427,928.923 531.679,928.923 531.679,913.896 624.079,913.896 "/>
+            <text class="tex" transform="matrix(1 0 0 1 531.6794 918.6213)" fill="#999999" font-family="'Arial-ItalicMT'" font-size="6.6">Hight School</text>
+            <polygon class="rect" fill="none" points="549.177,711.982 462.777,711.982 462.777,673.937 555.177,673.937 "/>
+            <text class="tex" transform="matrix(1 0 0 1 462.7771 679.092)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="7.2">International Work Camp</tspan><tspan x="0" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Building Worker</tspan><tspan x="0" y="17.28" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Mainz, DE</tspan></text>
+            <polygon class="rect" fill="none" points="620.677,756.081 520.75,756.081 519.927,717.466 645.077,717.466 "/>
+            <text class="tex" transform="matrix(1 0 0 1 520.0378 722.6213)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="7.2">Regional Architecture Devpmt</tspan><tspan x="0.184" y="8.64" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Exibition Assistant</tspan><tspan x="0.368" y="17.28" fill="#FFFFFF" font-family="'ArialMT'" font-size="7.2">Les Sables d’Olone, FR</tspan></text>
+        </g>
+        <g id="textes_x5F_fixe">
+            <polygon fill="none" points="263.408,365.85 229.588,366.04 228.496,357.246 265.312,357.246 	"/>
+            <text transform="matrix(1 0 0 1 229.2429 363.259)" fill="#CCCCCC" font-family="'Arial-ItalicMT'" font-size="8.4">2015</text>
+            <polygon fill="none" points="263.408,441.581 229.588,441.77 228.496,432.976 265.312,432.976 	"/>
+            <text transform="matrix(1 0 0 1 229.2429 438.9895)" fill="#CCCCCC" font-family="'Arial-ItalicMT'" font-size="8.4">2014</text>
+            <polygon fill="none" points="263.408,525.55 229.588,525.74 228.496,516.947 265.312,516.947 	"/>
+            <text transform="matrix(1 0 0 1 229.2429 522.9597)" fill="#CCCCCC" font-family="'Arial-ItalicMT'" font-size="8.4">2013</text>
+            <polygon fill="none" points="263.408,615.441 229.588,615.63 228.496,606.836 265.312,606.836 	"/>
+            <text transform="matrix(1 0 0 1 229.2429 612.8499)" fill="#CCCCCC" font-family="'Arial-ItalicMT'" font-size="8.4">2012</text>
+            <polygon fill="none" points="263.408,700.96 229.588,701.151 228.496,692.357 265.312,692.357 	"/>
+            <text transform="matrix(1 0 0 1 229.2429 698.3704)" fill="#CCCCCC" font-family="'Arial-ItalicMT'" font-size="8.4">2011</text>
+            <polygon fill="none" points="263.408,787.081 229.588,787.271 228.496,778.476 265.312,778.476 	"/>
+            <text transform="matrix(1 0 0 1 229.2429 784.4915)" fill="#CCCCCC" font-family="'Arial-ItalicMT'" font-size="8.4">2010</text>
+            <polygon fill="none" points="263.408,872.63 229.588,872.821 228.496,864.027 265.312,864.027 	"/>
+            <text transform="matrix(1 0 0 1 229.2429 870.0413)" fill="#CCCCCC" font-family="'Arial-ItalicMT'" font-size="8.4">2009</text>
+            <polygon fill="none" points="416.574,155.5 382.724,179.92 372.78,162.696 412.127,139.979 	"/>
+            <text transform="matrix(0.866 -0.5 0.5 0.866 374.739 166.0886)" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="5.3928">QUALIFICATION</text>
+            <polygon fill="none" points="611.816,91.195 519.417,96.964 519.417,74.837 611.816,74.837 	"/>
+            <text transform="matrix(1 0 0 1 519.4167 79.9895)" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="7.2">ENGINEERING</text>
+            <polygon fill="none" points="476.512,151.492 438.38,176.801 427.442,157.855 474.111,130.91 	"/>
+            <text transform="matrix(0.866 -0.5 0.5 0.866 429.5955 161.5813)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="5.9321">PROFESSIONAL</tspan><tspan x="-0.001" y="7.118" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="5.9321">EXPERIENCE</tspan></text>
+            <polygon fill="none" points="485.095,91.195 392.695,96.964 392.695,74.837 485.095,74.837 	"/>
+            <text transform="matrix(1 0 0 1 392.6951 79.9944)" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="7.2">ARCHITECTURE</text>
+            <polygon fill="none" points="597.902,160.3 564.052,184.719 554.108,167.496 593.454,144.779 	"/>
+            <text transform="matrix(0.866 -0.5 0.5 0.866 556.0671 170.8879)" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="5.3928">QUALIFICATION</text>
+            <polygon fill="none" points="544.36,152.315 506.227,177.624 495.289,158.677 541.958,131.733 	"/>
+            <text transform="matrix(0.866 -0.5 0.5 0.866 497.4421 162.4045)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="5.9321">PROFESSIONAL</tspan><tspan x="0" y="7.119" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="5.9321">EXPERIENCE</tspan></text>
+            <polygon fill="none" points="538.977,-27.118 446.577,-21.349 446.577,-43.477 538.977,-43.477 	"/>
+            <text transform="matrix(1 0 0 1 446.5759 -37.4607)" fill="#999999" font-family="'ArialMT'" font-size="8.4">SCROLL DOWN</text>
+        </g>
+        </svg>
 
-            <line fill="none" stroke="#666666" stroke-width="0.7" stroke-miterlimit="10" stroke-dasharray="0" x1="112.75" y1="1425.83" x2="994.67" y2="1425.83"/>
-            <line fill="none" stroke="#666666" stroke-width="0.7" stroke-miterlimit="10" stroke-dasharray="0" x1="113.25" y1="1284.08" x2="994.67" y2="1284.08"/>
-            <line fill="none" stroke="#666666" stroke-width="0.7" stroke-miterlimit="10" stroke-dasharray="0" x1="113.25" y1="1141.38" x2="994.5" y2="1141.38"/>
-            <line fill="none" stroke="#666666" stroke-width="0.7" stroke-miterlimit="10" stroke-dasharray="0" x1="113.25" y1="998.16" x2="995" y2="998.16"/>
-            <line fill="none" stroke="#666666" stroke-width="0.7" stroke-miterlimit="10" stroke-dasharray="0" x1="113.25" y1="848.5" x2="995" y2="848.5"/>
-            <line fill="none" stroke="#666666" stroke-width="0.7" stroke-miterlimit="10" stroke-dasharray="0" x1="113.25" y1="707.4" x2="995.83" y2="707.4"/>
-            <line fill="none" stroke="#666666" stroke-width="0.7" stroke-miterlimit="10" stroke-dasharray="0" x1="113.25" y1="582.1" x2="995.5" y2="582.1"/>
 
-            <line fill="none" stroke="#FCFCFC" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="0" x1="106.25" y1="581.04" x2="141.25" y2="581.04"/>
-            <line fill="none" stroke="#FCFCFC" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="0" x1="106.25" y1="706.34" x2="141.25" y2="706.34"/>
-            <line fill="none" stroke="#FCFCFC" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="0" x1="106.25" y1="847.56" x2="141.25" y2="847.56"/>
-            <line fill="none" stroke="#FCFCFC" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="0" x1="106.25" y1="997.1" x2="141.25" y2="997.1"/>
-            <line fill="none" stroke="#FCFCFC" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="0" x1="106.25" y1="1140.33" x2="141.25" y2="1140.33"/>
-            <line fill="none" stroke="#FCFCFC" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="0" x1="105.75" y1="1424.78" x2="140.75" y2="1424.78"/>
-            <line fill="none" stroke="#FCFCFC" stroke-width="3" stroke-miterlimit="10" stroke-dasharray="0" x1="106.25" y1="1283.02" x2="141.25" y2="1283.02"/>
-        </g>
-        <g id="Layer_2">
-            <path fill="none" class="path" stroke="#66CCCC" stroke-width="7" stroke-miterlimit="10" d="M385.85,531.83L385.83,1032c0,25,2.17,24.75,35.67,49.75l215.35,163.81c11.75,9.64,39.82,26.6,39.82,52.6V1390"/>
-       
-            <polyline class="path"  fill="none" stroke="#6699FF" stroke-width="7" stroke-miterlimit="10" points="685.58,532.42 685.83,1271.05 685.84,1336.83 	"/>
-            <path class="path"  fill="none" stroke="#99CCFF" stroke-width="7" stroke-miterlimit="10" d="M491.25,424.5c0,0,0,84.65,0,129.32c0,26.68,15,31.18,31.75,42.68c6.93,4.76,150.13,96.08,150.13,96.08"/>
-            <path class="path"  fill="none" stroke="#99FFCC" stroke-width="7" stroke-miterlimit="10" d="M482.11,424.5v644.88c0.25,28.64-1.36,46.62,23.62,64.8l105.62,79.26"/>
-        </g>
-        <g id="Layer_3">
-            <path fill="none" stroke="#FF3333" stroke-width="2.4" stroke-miterlimit="10" d="M666.83,1400.02v17.14c2.33,44.17,29.66,51,95.33,87.33"/>
-            <path stroke="#FCFCFC" stroke-miterlimit="10" d="M666.23,1400.02c-2.77,0-5.01-2.24-5.01-5.01c0-2.77,2.24-5.01,4.59-5.01h12.22c2.35,0,4.59,2.24,4.59,5.01c0,2.76-2.25,5.01-5.01,5.01H666.23z"/>
-            <path stroke="#FCFCFC" stroke-miterlimit="10" d="M675.44,1346.85c-2.77,0-5.01-2.24-5.01-5.01c0-2.77,2.24-5.01,4.59-5.01h12.22c2.35,0,4.59,2.24,4.59,5.01c0,2.76-2.25,5.01-5.01,5.01H675.44z"/>
-            <circle fill="#99FFFF" cx="685.88" cy="1341.84" r="3.27"/>
-            <circle cx="685.58" cy="1193.5" r="2.9"/>
-            <circle cx="685.58" cy="1073.4" r="2.9"/>
-            <circle cx="685.59" cy="927.5" r="2.9"/>
-            <path stroke="#FCFCFC" stroke-miterlimit="10" d="M608.36,1225.55c-1.7,2.18-4.85,2.57-7.03,0.87c-2.18-1.71-2.57-4.85-1.12-6.7l7.91-9.84c1.45-1.85,4.59-2.24,6.78-0.53c2.18,1.7,2.56,4.85,0.86,7.03L608.36,1225.55z"/>
-            <circle cx="401.14" cy="1066.48" r="2.9"/>
-            <circle cx="482.78" cy="1009.05" r="2.9"/>
-            <circle cx="534.15" cy="1155.7" r="2.9"/>
-            <circle fill="#339999" cx="676.67" cy="1395.01" r="3.27"/>
-            <circle fill="#FF3333" cx="667.51" cy="1395.02" r="3.27"/>
-            <circle cx="482.49" cy="875.5" r="2.9"/>
-            <circle cx="385.84" cy="927.5" r="2.9"/>
-            <circle cx="385.85" cy="775.17" r="2.9"/>
-            <circle cx="685.58" cy="775.17" r="2.9"/>
-            <path stroke="#FCFCFC" stroke-miterlimit="10" d="M674.44,699.85c-2.77,0-5.01-2.24-5.01-5.01c0-2.77,2.24-5.01,4.59-5.01h12.22c2.35,0,4.59,2.24,4.59,5.01c0,2.76-2.25,5.01-5.01,5.01H674.44z"/>
-            <circle fill="none" stroke="#6699FF" stroke-width="1.9" stroke-miterlimit="10" cx="685.58" cy="529.08" r="3.92"/>
-            <circle fill="none" stroke="#66CCCC" stroke-width="1.9" stroke-miterlimit="10" cx="385.83" cy="528.5" r="3.92"/>
-            <circle fill="#99FFFF" cx="611.35" cy="1213.43" r="3.27"/>
-            <circle fill="#6699FF" cx="675.49" cy="694.84" r="3.27"/>
-            <circle cx="491.25" cy="553.83" r="2.9"/>
-            <circle cx="482.11" cy="553.83" r="2.9"/>
-            <line fill="#232221" stroke="#000000" stroke-width="3" stroke-miterlimit="10" x1="482.11" y1="553.83" x2="491.25" y2="553.83"/>
-            <circle cx="491.25" cy="516.92" r="2.9"/>
-        </g>
-    </svg>
 
     <rect class="top"> </rect>
     <rect class="bottom"> </rect>
@@ -75,7 +186,9 @@
     <rect class="right"> </rect>
     <div id="langue"><a id="lang" href="vincent-parquet-fr.htm">FR</a> I <a id="lang" href="vincent-parquet-en.htm">EN</a></div>
     <a id="home" href="vincent-parquet-en.htm"> HOME </a>
-    <div class="vide"></vide>
+    <div class="vide"> </div>
+
+    
     
   </body>
 </html>
