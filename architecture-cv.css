@@ -36,6 +36,9 @@ svg {
     height: 450px;
 }
 
+.blancc:hover {
+    fill: #FFFFFF;
+}
 
 /* Home et langues */
 
