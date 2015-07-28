@@ -28,7 +28,11 @@ svg {
   stroke-dasharray: 1000;
 }
 
-.vide {
+.videfr {
+    height: 150px;
+}
+
+.videen {
     height: 450px;
 }
 
