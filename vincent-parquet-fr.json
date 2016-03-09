@@ -71,7 +71,7 @@
     {"name": "Contact",  
     "title": "Contact", 
     "children": [
-        {"value": 743, "url": "#", "textual": " <br /><br /><br /><br /><br /><br /><br /><br /><p id='small2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vincent Parquet<br /> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vincentparquet.vp@gmail.com </p> "}
+        {"value": 743, "url": "#", "textual": " <div id='moveleft'> <br /><br /><br /><br /> &nbsp; <p id='small2'> Vincent Parquet <br /> Etudes: architecture et ingénierie <br /> vincentparquet.vp@gmail.com </p> <br />  <a href='https://www.linkedin.com/in/vincent-parquet-b17bb391'> <img id='linkedin' src='img/s0_linkedin_1.png' onmouseover='getLinkedin()' onmouseout='getLinkedin2()'> </a> </div> "}
         ],
     "image": "img/s0_page_contact.png"}
     

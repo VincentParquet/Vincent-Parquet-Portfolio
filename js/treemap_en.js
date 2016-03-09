@@ -165,6 +165,14 @@ d3.json("vincent-parquet-en.json", function(root) {
                 window.location.href=d.url;
             }
         })
+        .attr("id",function(d) { 
+            if(d.children){
+                /*window.open(d.url);*/ 
+                return "wecanclick";   
+            } else if(d.url != "#") {
+                return "wecanclick";
+            }
+        })
         .attr("class","foreignobj");   
         
             

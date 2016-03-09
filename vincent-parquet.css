@@ -73,6 +73,9 @@ text {
   
 .title rect {
     fill: #fff;}
+    
+#wecanclick {
+    cursor: pointer;}
 
 text.goingback {
     opacity:0.8}
@@ -99,7 +102,7 @@ rect.parent {
   fill: rgba(250,250,250,0.00);}
 
 /* dans les rectangles */
-.foreignobj {
+foreignobject {
    overflow: hidden;}
 
 div.textapparait { /*  */
@@ -110,7 +113,7 @@ div.textapparait { /*  */
     margin-top: 10px;
     margin-left: -2px;
     line-height:15px;
-    max-width: 250px;
+    max-width: 2250px;
     visibility : visible;
     color: white;
     text-align: left;
@@ -140,9 +143,12 @@ p#small {
     margin: 1px;}
     
 p#small2 {
-    font-size: 15px;
+    font-size: 13px;
     margin: 1px;
-    line-height: 20px;}
+    line-height: 22px;}
+
+div#moveleft {
+    margin-left: 170px;}
 
 div.tesst{
     display: block;
@@ -206,7 +212,8 @@ rect.child {
         top: 2px;}
 
 #linkedin:hover{
-        visibility:hidden}
+        }
+        
 /*  bordure blanche */
 
 rect.top{
