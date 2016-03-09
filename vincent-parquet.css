@@ -205,6 +205,8 @@ rect.child {
         font-size: 22px;
         top: 2px;}
 
+#linkedin:hover{
+        visibility:hidden}
 /*  bordure blanche */
 
 rect.top{

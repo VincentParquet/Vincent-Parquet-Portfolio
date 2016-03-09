@@ -45,7 +45,7 @@
             {"name": "Grasshopper", "value": 60, "url": "#", "textual": "* * *"}, 
             {"name": "Photoshop", "value": 100, "url": "#", "textual": "* * * * *"},
             {"name": "Illustrator", "value": 80, "url": "#", "textual": "* * * *"},
-            {"name": "Indesing", "value": 60, "url": "#", "textual": "* * *"},
+            {"name": "Indesing", "value": 60, "url": "#", "textual": "* * *"}
             {"name": "QGis", "value": 85, "url": "#", "textual": "* * * *"},
             {"name": "Rhino", "value": 105, "url": "#", "textual": "* * * * *"}
             ]
@@ -72,7 +72,7 @@
     {"name": "Contact", 
     "title":"Contact",  
     "children": [
-        {"value": 743, "url": "#", "textual": " <br /><br /><br /><br /><br /><br /><br /><br /><p id='small2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vincent Parquet<br /> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vincentparquet.vp@gmail.com </p> "}
+        {"value": 743, "url": "#", "textual": " <br /><br /><br /><br /><br /><br /><br /><br /><p id='small2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vincent Parquet <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vincentparquet.vp@gmail.com </p>"}
         ],
     "image": "img/s0_page_contact.png"}
     ] 
