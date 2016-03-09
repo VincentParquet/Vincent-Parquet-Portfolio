@@ -37,6 +37,14 @@ a#lang{
 a#lang:hover{
     font-weight: bold; 
     opacity: 1;}
+    
+#loader{
+    position :fixed;
+    left: 50%;
+    top: 50%;
+    margin-left:-16px;
+    margin-top:-16px;
+    }
 
 #chart {
     width:  760px;

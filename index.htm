@@ -19,9 +19,24 @@
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
           ga('create', 'UA-65837547-1', 'auto');
           ga('send', 'pageview');
-        </script>
+        </script> 
+        
+        <script type="text/javascript">
+            $(function(){
+                $("#chart").hide();
+                $("#info").hide();
+                $("#langue").hide();
+                $("#loader").show();
+            });
+            $(window).load(function() {
+                $("#chart").show();
+                $("#info").show();
+                $("#langue").show();
+                $("#loader").hide();
+            });
+        </script>    
     </head>
-     
+
     <body>     
         <h1>VINCENT PARQUET</h1>
         <h2>vincent parquet</h2>
@@ -35,6 +50,7 @@
             <p id="info"><b>Master student in Architecture &nbsp; <a id="plusgros" alt="vincent parquet">+</a> &nbsp; Master student in Enginering</b></p>
             <p id="soustitre">vincentparquet<b>.vp</b>@gmail.com</p>
         </div>   
+        <div id="loader"> <img src="img/s0_loader_white.gif"/> </div>
     </body>
 
 </html>

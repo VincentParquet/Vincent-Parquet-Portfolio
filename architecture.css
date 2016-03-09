@@ -44,14 +44,15 @@ ul {
     display: inline-block;
     font-size: 13px;
     bottom: 27px;
-    left: 30px;
+    left: 27px;
     color: white;
     text-decoration:none; 
     font-weight: normal;
-    opacity: 0.9}
+    opacity: 0.8}
 
 #home:hover {
-    opacity: 1;}
+    opacity: 1;
+    font-weight: bold;}
 
 .titre {
     position: absolute;

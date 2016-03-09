@@ -45,29 +45,29 @@ svg {
 #home {
     position: fixed;
     display: inline-block;
-    font-size: 13px;
+    font-size: 15px;
     bottom: 27px;
     left: 30px;
     color: white;
     text-decoration:none; 
     font-weight: normal;
-    opacity: 0.9}
+    opacity: 0.8}
 
 #home:hover {
-    opacity: 1;}
+    opacity: 1;
+    font-weight: bold}
 
 div#langue{
     position : fixed;
     top : 30px;
     right: 30px;
-    font-size: 14px;
+    font-size: 15px;
     color: white;}
 
 a#lang{
     text-decoration:none;
     color: white;
-    opacity: 0.80;
-    }
+    opacity: 0.80;}
     
 a#lang:hover{
     font-weight: bold; 

@@ -20,6 +20,26 @@
           ga('create', 'UA-65837547-1', 'auto');
           ga('send', 'pageview');
         </script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                document.getElementById('chart').style.visibility  = "visible";
+                $("#loader").fadeOut(450);
+            });
+        </script>   
+        <script type="text/javascript">
+            $(function(){
+                $("#chart").hide();
+                $("#info").hide();
+                $("#langue").hide();
+                $("#loader").show();
+            });
+            $(window).load(function() {
+                $("#chart").show();
+                $("#info").show();
+                $("#langue").show();
+                $("#loader").hide();
+            });
+        </script>        
     </head>
     
     <body>
@@ -32,9 +52,10 @@
         <rect class="right"></rect>
         <div id="langue"><a id="lang" href="vincent-parquet-fr.htm">FR</a> I <a id="lang" href="vincent-parquet-en.htm">EN</a></div>
         <div id="info">
-            <p id="info"><b>Master student in Architecture &nbsp; <a id="plusgros">+</a> &nbsp; Master student in Enginering</b></p>
+            <p id="info"><b>Master student in Architecture &nbsp; <a id="plusgros" alt="vincent parquet">+</a> &nbsp; Master student in Enginering</b></p>
             <p id="soustitre">vincentparquet<b>.vp</b>@gmail.com</p>
-        </div>   
+        </div> 
+        <div id="loader"> <img src="img/s0_loader_white.gif"/> </div>  
     </body>
 
 </html>
