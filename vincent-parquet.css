@@ -19,6 +19,8 @@ h2{ position :fixed;}
 
 h3{ position : fixed;}
 
+  
+  
 div#langue{
     position : fixed;
     top : 30px;
@@ -46,7 +48,8 @@ a#lang:hover{
     position:absolute;
     /* Centrer verticalement */
     top: 50%;
-    margin-top: -267px;}
+    margin-top: -267px;
+    }
 
 text {
   pointer-events: none;}
@@ -100,7 +103,7 @@ div.textapparait { /*  */
     margin-left: -2px;
     line-height:15px;
     max-width: 250px;
-    visibility : hidden;
+    visibility : visible;
     color: white;
     text-align: left;
     overflow : hidden;
@@ -109,7 +112,7 @@ div.textapparait { /*  */
 
 img.imgapparait {
     display: inline-block;
-    visibility : hidden;
+    visibility : visible;
     max-width: 650px;
     max-height: 655px;
     padding: 0px;
@@ -134,17 +137,11 @@ p#small2 {
     line-height: 20px;}
 
 div.tesst{
-    
-    display: inline-block;
+    display: block;
     margin-left: 30px;
     margin-top: 15px;
 	text-align:left;
 	overflow:hidden;}
-	
-p#information {
-    visibility: hidden;
-    font-size: 12px;
-    margin: 5px;}
 
 /* au survol des rectangles*/
 
@@ -157,6 +154,10 @@ p#information {
         .children:hover div.textapparait{
             opacity : 1;
             visibility: visible;}
+            
+        .children:hover div.tesst{
+            display: block;
+            visibility: visible;}
         
         .children:hover img.imgapparait{
             visibility: visible;
@@ -166,9 +167,6 @@ p#information {
             /*color: #5a5a5a;*/
             font-weight: normal;}
             
-        .children:hover p#information {
-            visibility: visible;
-        }
 
 rect.child {
     visibility : hidden;}

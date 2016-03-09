@@ -26,7 +26,8 @@
     {"name": "Ecrits",
     "title":"Ecrits",
     "children": [
-        {"name": "Thèse de Master en Architecture", "value": 1900, "image": "img/s0_page_18.jpg", "url": "#", "textual": "HOW DOES FLOOR RISK INFLUENCE URBAN PLANNING ?<br /> <br /> CASE STUDY:<br />  <br />POST TRAUMATIC MANAGEMENT OF THE FRENCH STORM XYNTHIA - 2010 <p id='small'>© Philippe Cherel/Ouest France/PHOTOPQR/MAXPPP<p>"}
+        {"name": "Mémoire de projet de fin d'étude - architecture", "value": 951, "image": "img/s0_ecrit_1.png", "url": "http://issuu.com/vincentparquet/docs/m__moire_pfe_2015_vincent_parquet"},
+        {"name": "Thèse de master - architecture", "value": 949, "image": "img/s0_ecrit_3.png", "url": "#"}
         ],
     "image": "img/s0_page_writings_fr.png"
     },

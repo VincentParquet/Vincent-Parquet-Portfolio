@@ -209,7 +209,7 @@ d3.json("vincent-parquet-en.json", function(root) {
 
       // Fade-in entering text.
       g2.selectAll("text").style("fill-opacity", 0);
-      g2.selectAll("foreignObject div").style("display", "none"); /*added*/
+      /*g2.selectAll("foreignObject div").style("display", "none"); added*/
 
       // Transition to the new view.
       t1.selectAll("text").call(text).style("fill-opacity", 0);
