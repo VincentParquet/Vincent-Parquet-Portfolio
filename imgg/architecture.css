@@ -1,0 +1,157 @@
+@font-face {
+}
+
+body, html { 
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, "Open Sans", sans-serif;}
+
+#filtergrey{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 0;}
+    
+div#rblanc {
+    position: relative;
+    margin: auto;
+    top: 15px;
+    height: 100%;
+    width: 85%;
+    background-color: white;
+    text-align: center;}
+    
+span#helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img#principale { 
+    max-height: 95%;
+    max-width: 95%;
+    vertical-align:middle;}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;}
+
+#home {
+    position: absolute;
+    display: inline-block;
+    font-size: 13px;
+    bottom: 27px;
+    left: 30px;
+    color: white;
+    text-decoration:none; 
+    font-weight: normal;
+    opacity: 0.9}
+
+#home:hover {
+    opacity: 1;}
+
+.titre {
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    bottom: 0px;
+    height: 20px;
+    width: 91px;
+    text-align: center;
+    color: black;
+    background-color: white;}
+
+p#titre {
+    margin: 0px;
+    margin-top: 4px;
+    padding: 0px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #333333;}
+
+
+div#blanc1{
+    visibility : visible;
+    height: calc(100% - 160px);
+    text-align: center;
+    z-index: 999;}
+
+li{
+    position: absolute;
+    bottom: 0px;
+    height: 20px;
+    overflow: hidden;
+    border: 1px white solid;
+    text-align: center;
+    background-position: -300px 0;}
+    
+p#type {
+    margin: 0px;
+    visibility: hidden;
+    font-size: 11px;
+    font-weight: normal;
+    color: #333333;}
+    
+li:hover #type{
+    visibility: visible;}
+    
+li:hover{
+    background-image: url(img/s0_blanc.jpg); 
+    background-position: 0px 0;
+    background-repeat:no-repeat;
+    transition: background-position 1300ms ease-in-out;
+    cursor: crosshair;}
+
+
+/* La partie texte  */
+#introduction {
+    position: absolute;
+    top: 100%;
+    margin-top: -115px;
+    left: calc(230px + 35%);
+    bottom: 0px;
+    color: white;}
+
+div#int_titre {
+    margin: 0px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(243,161,33); }
+
+div#int_text {
+    line-height: 1.4em;
+    margin-top: -5px;
+    overflow: hidden;
+    width: 75%;
+    max-width: 600px;
+    min-width: 150px;
+    padding-right: 50px;
+    padding-top: 9px; 
+    font-size: 12px;
+    text-align: justify; }
+    
+a#gras {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0px;
+    color: rgb(243,161,33);
+    }
+    
+#more {
+    position: relative;
+    left: 78%;
+    bottom: 17px;
+    font-size: 13px;
+    color: rgb(243,161,33);
+    font-weight: bold;
+    }
+    
+#more:hover {
+    text-decoration:underline;
+    cursor: default;
+    }
+    
